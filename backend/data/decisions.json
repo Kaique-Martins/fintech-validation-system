@@ -1,0 +1,1821 @@
+[
+  {
+    "recordId": "undefined-1775572582117",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T14:36:22.117Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 30,
+    "status": "APROVADO",
+    "id": "decision-1775572582117-5rzudha6t"
+  },
+  {
+    "recordId": "undefined-1775574573017",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T15:09:33.017Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 30,
+    "status": "APROVADO",
+    "id": "decision-1775574573018-0vj5pmc0i"
+  },
+  {
+    "recordId": "undefined-1775574577481",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T15:09:37.481Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 30,
+    "status": "APROVADO",
+    "id": "decision-1775574577482-ms0g74uw1"
+  },
+  {
+    "recordId": "undefined-1775574607265",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T15:10:07.265Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 30,
+    "status": "APROVADO",
+    "id": "decision-1775574607265-tg2ef798c"
+  },
+  {
+    "recordId": "DEMO-1775577679304-ydgg8li11",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:01:19.309Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 92,
+    "status": "APROVADO",
+    "id": "decision-1775577679309-uvlooy0sd"
+  },
+  {
+    "recordId": "DEMO-1775577682304-mus64uynj",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:01:22.307Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577682307-8sa3nr1ua"
+  },
+  {
+    "recordId": "DEMO-1775577685318-gkptnui5y",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:01:25.320Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577685320-8722obqts"
+  },
+  {
+    "recordId": "DEMO-1775577688324-dt95xrfvn",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:01:28.326Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577688326-ndccjzytu"
+  },
+  {
+    "recordId": "DEMO-1775577691336-u52mblypf",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:01:31.338Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577691338-x8n8xcxj3"
+  },
+  {
+    "recordId": "DEMO-1775577694339-hrxz6zwcl",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:01:34.340Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577694340-klg9pg3z6"
+  },
+  {
+    "recordId": "DEMO-1775577697354-i4dr8u15c",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:01:37.354Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577697354-c04uf7s5n"
+  },
+  {
+    "recordId": "DEMO-1775577700355-jtzaimafi",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:01:40.356Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577700356-kwxhbvya1"
+  },
+  {
+    "recordId": "DEMO-1775577703370-roiwd3a7f",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:01:43.373Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577703373-rbdaz9095"
+  },
+  {
+    "recordId": "DEMO-1775577706378-hwl3rx0pd",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:01:46.379Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577706379-i6wxxdwgn"
+  },
+  {
+    "recordId": "DEMO-1775577709389-7vvj48v9k",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:01:49.390Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577709390-i8kwzyffb"
+  },
+  {
+    "recordId": "DEMO-1775577712404-9wpdoo8i1",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:01:52.405Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577712405-amcpe7s13"
+  },
+  {
+    "recordId": "DEMO-1775577715407-gy4qypl9z",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:01:55.408Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577715408-vpgktc64w"
+  },
+  {
+    "recordId": "DEMO-1775577718408-1aufk390o",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:01:58.409Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577718409-ilvuozi20"
+  },
+  {
+    "recordId": "DEMO-1775577721419-b7dxmcajv",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:02:01.420Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577721420-3ap1o7lv7"
+  },
+  {
+    "recordId": "DEMO-1775577724420-u2cg3zk6u",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:02:04.421Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577724421-i2tk72sxh"
+  },
+  {
+    "recordId": "DEMO-1775577727420-y9z9ixtr1",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:02:07.421Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577727421-ekjlwdt10"
+  },
+  {
+    "recordId": "DEMO-1775577730442-03lci2m1t",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:02:10.444Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577730444-2kuv1y6vd"
+  },
+  {
+    "recordId": "DEMO-1775577733442-1lo2o3uor",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:02:13.443Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577733443-wf9hnx8yh"
+  },
+  {
+    "recordId": "DEMO-1775577736445-6x3edb7nq",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:02:16.446Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577736446-rz1tyv0mn"
+  },
+  {
+    "recordId": "DEMO-1775577739459-hw4w987nr",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:02:19.459Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577739459-1235tgukd"
+  },
+  {
+    "recordId": "DEMO-1775577742459-4lyvdi7hi",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:02:22.459Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577742459-om506xgtq"
+  },
+  {
+    "recordId": "DEMO-1775577745458-khqnxrw4t",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:02:25.459Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577745459-1u48eoqf3"
+  },
+  {
+    "recordId": "DEMO-1775577748462-yq8zvfdta",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:02:28.463Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577748463-t6sppzkvb"
+  },
+  {
+    "recordId": "DEMO-1775577751475-llphngyfl",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:02:31.476Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577751476-ghtgfk3lf"
+  },
+  {
+    "recordId": "DEMO-1775577754475-m069v56y7",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:02:34.475Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577754475-ah6i5dgo3"
+  },
+  {
+    "recordId": "DEMO-1775577757475-a7gdwpris",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:02:37.475Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577757475-2kr8bbkxn"
+  },
+  {
+    "recordId": "DEMO-1775577917244-grhje1uug",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:05:17.246Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577917246-uz0pedps1"
+  },
+  {
+    "recordId": "DEMO-1775577920244-7ekr9ni16",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:05:20.247Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577920247-6qwo7qhxd"
+  },
+  {
+    "recordId": "DEMO-1775577923258-5jgygoerl",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:05:23.260Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577923260-g73mjkb6y"
+  },
+  {
+    "recordId": "DEMO-1775577926260-s1kqzr2lm",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:05:26.260Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577926260-aa14jh72y"
+  },
+  {
+    "recordId": "DEMO-1775577929262-zi3ge6w3d",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:05:29.263Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577929263-y9u427q4m"
+  },
+  {
+    "recordId": "DEMO-1775577932263-v5e5hcq29",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:05:32.265Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577932265-j9eah59vm"
+  },
+  {
+    "recordId": "DEMO-1775577935263-tqq1stdph",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:05:35.264Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577935264-xldeg9mu4"
+  },
+  {
+    "recordId": "DEMO-1775577938264-fzmctgqbh",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:05:38.265Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577938265-gq1nvd7zg"
+  },
+  {
+    "recordId": "DEMO-1775577941279-89hrbg4ah",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:05:41.280Z",
+    "isAuto": true,
+    "processingTimeMs": 1,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577941280-h7ngchspp"
+  },
+  {
+    "recordId": "DEMO-1775577944278-qbftoahj0",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:05:44.279Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577944279-4y5efcpgv"
+  },
+  {
+    "recordId": "DEMO-1775577947293-e5p8wdsvs",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:05:47.295Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 92,
+    "status": "APROVADO",
+    "id": "decision-1775577947295-dw0ssf0mh"
+  },
+  {
+    "recordId": "DEMO-1775577950297-0ayqhdkmd",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:05:50.297Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577950297-ldpd55l8a"
+  },
+  {
+    "recordId": "DEMO-1775577953297-abro8k2id",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:05:53.298Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577953298-lwaqdi7dq"
+  },
+  {
+    "recordId": "DEMO-1775577956307-5an9pazki",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:05:56.308Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577956308-hkqm3716m"
+  },
+  {
+    "recordId": "DEMO-1775577959313-zk108n2oc",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:05:59.315Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577959315-76a25dtj0"
+  },
+  {
+    "recordId": "DEMO-1775577962328-k9li9nz41",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:06:02.329Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577962329-rtm2zxacx"
+  },
+  {
+    "recordId": "DEMO-1775577965333-0cs982hfu",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:06:05.334Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577965334-e20cfz877"
+  },
+  {
+    "recordId": "DEMO-1775577968347-cq58ak3dt",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:06:08.347Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577968347-ifb4sirhf"
+  },
+  {
+    "recordId": "DEMO-1775577971349-ii9c07k9a",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:06:11.350Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577971350-4f9x0tu10"
+  },
+  {
+    "recordId": "DEMO-1775577974363-u05z1cth5",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:06:14.365Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577974365-57p70tay3"
+  },
+  {
+    "recordId": "DEMO-1775577977377-mhfzvu0bm",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:06:17.379Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577977379-twbvn9v6v"
+  },
+  {
+    "recordId": "DEMO-1775577980392-ky7hn5luo",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:06:20.394Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577980394-sezu8sdp7"
+  },
+  {
+    "recordId": "DEMO-1775577983400-3wu5e6vmt",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:06:23.402Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577983402-2qn1nfvw4"
+  },
+  {
+    "recordId": "DEMO-1775577986400-ciljghxsd",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:06:26.402Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 92,
+    "status": "APROVADO",
+    "id": "decision-1775577986402-whksu46y9"
+  },
+  {
+    "recordId": "DEMO-1775577989416-xr34k0qlr",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:06:29.417Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577989417-l7chd0c2q"
+  },
+  {
+    "recordId": "DEMO-1775577992430-pmg9r0vx2",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:06:32.430Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577992430-qjexjcbmy"
+  },
+  {
+    "recordId": "DEMO-1775577995437-kd5rntonh",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:06:35.439Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775577995439-t8b0gznqg"
+  },
+  {
+    "recordId": "DEMO-1775577998437-6e5c64en4",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:06:38.440Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 92,
+    "status": "APROVADO",
+    "id": "decision-1775577998440-2ueff8zx8"
+  },
+  {
+    "recordId": "DEMO-1775578001449-ivwnrivj1",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:06:41.449Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 92,
+    "status": "APROVADO",
+    "id": "decision-1775578001449-np3wum269"
+  },
+  {
+    "recordId": "DEMO-1775578004459-xdg32gkch",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:06:44.459Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775578004460-f7miq1rbe"
+  },
+  {
+    "recordId": "DEMO-1775578007470-gjgbpnfi3",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:06:47.471Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775578007471-l1jfhasgt"
+  },
+  {
+    "recordId": "DEMO-1775578010481-qnji6uuln",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:06:50.482Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775578010482-75l48dgvu"
+  },
+  {
+    "recordId": "DEMO-1775578013483-p2vlbbecj",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:06:53.484Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775578013484-0ahf8h4jr"
+  },
+  {
+    "recordId": "DEMO-1775578016486-xjqjdk7cc",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:06:56.488Z",
+    "isAuto": true,
+    "processingTimeMs": 1,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775578016488-9vbbayc03"
+  },
+  {
+    "recordId": "DEMO-1775578019500-493cm8fpa",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:06:59.502Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775578019502-awr3ddiim"
+  },
+  {
+    "recordId": "DEMO-1775578022515-p37s0z931",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:07:02.517Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775578022517-v0evxrll1"
+  },
+  {
+    "recordId": "DEMO-1775578025517-y8pvd3t9d",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:07:05.519Z",
+    "isAuto": true,
+    "processingTimeMs": 1,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775578025519-bdiuaq5hk"
+  },
+  {
+    "recordId": "DEMO-1775578028525-122ww3e81",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:07:08.526Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775578028526-m879vbdqo"
+  },
+  {
+    "recordId": "DEMO-1775578031530-tod6voi1t",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:07:11.531Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775578031531-5kfb971r7"
+  },
+  {
+    "recordId": "DEMO-1775578034538-drl9215ck",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:07:14.539Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775578034539-va72mty39"
+  },
+  {
+    "recordId": "DEMO-1775578037543-n3fzvfhhc",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:07:17.544Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775578037544-aeei2fqmm"
+  },
+  {
+    "recordId": "DEMO-1775578040558-ste5cmggv",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:07:20.560Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775578040560-8q0x90f3b"
+  },
+  {
+    "recordId": "DEMO-1775578043561-egnv4bxgb",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:07:23.562Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775578043562-nvea73ysx"
+  },
+  {
+    "recordId": "DEMO-1775578046570-d9xdg2o49",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:07:26.572Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775578046572-z2eaqc25n"
+  },
+  {
+    "recordId": "DEMO-1775578049582-bbo5xximv",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:07:29.584Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775578049584-07ivkdwp5"
+  },
+  {
+    "recordId": "DEMO-1775578052593-thk51nh8c",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:07:32.594Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 92,
+    "status": "APROVADO",
+    "id": "decision-1775578052594-7cw6gz68m"
+  },
+  {
+    "recordId": "DEMO-1775578055594-ura959r95",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:07:35.596Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775578055596-ctvzhlhp9"
+  },
+  {
+    "recordId": "DEMO-1775578058597-p1fomqttc",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:07:38.597Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775578058597-ze002lkpc"
+  },
+  {
+    "recordId": "DEMO-1775578061597-zwaqzn3fg",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:07:41.597Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775578061597-uamimltjt"
+  },
+  {
+    "recordId": "DEMO-1775578064609-zl4lcaomb",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:07:44.610Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775578064610-u00ei55m9"
+  },
+  {
+    "recordId": "DEMO-1775578067611-rq36hapaj",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:07:47.612Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775578067612-59hu3x3xf"
+  },
+  {
+    "recordId": "DEMO-1775578070625-6smwfm4xv",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:07:50.626Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775578070626-hiy0zx366"
+  },
+  {
+    "recordId": "DEMO-1775578073631-r884vytf7",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:07:53.633Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775578073633-fs7xmcjoc"
+  },
+  {
+    "recordId": "DEMO-1775578076642-tny3u88qs",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:07:56.642Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775578076642-q9f9mqh8o"
+  },
+  {
+    "recordId": "DEMO-1775578079643-ojsvk21fh",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:07:59.643Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775578079643-k9xpq2n9w"
+  },
+  {
+    "recordId": "DEMO-1775578082657-n30o4a4ly",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:08:02.657Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775578082657-m3y05xicv"
+  },
+  {
+    "recordId": "DEMO-1775578085659-5nzzvnu6d",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:08:05.659Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775578085659-ckof8ahst"
+  },
+  {
+    "recordId": "DEMO-1775578088669-z5gncnc4a",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:08:08.670Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775578088670-lmagb0oqa"
+  },
+  {
+    "recordId": "DEMO-1775578091677-xptuob6wv",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:08:11.679Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775578091679-kvdrn2wf4"
+  },
+  {
+    "recordId": "DEMO-1775578094694-j2tnmkbj4",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:08:14.696Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775578094696-coh0ad6uj"
+  },
+  {
+    "recordId": "DEMO-1775578097693-2qswo3ijr",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:08:17.694Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775578097694-hknw73kjl"
+  },
+  {
+    "recordId": "DEMO-1775578100694-cvx6343gy",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:08:20.696Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775578100696-9yksbz3z1"
+  },
+  {
+    "recordId": "DEMO-1775578103697-y195lf1p5",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:08:23.698Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775578103698-v83moh2wc"
+  },
+  {
+    "recordId": "DEMO-1775578106710-4yovnd5lj",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:08:26.712Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775578106712-kwbvzxtma"
+  },
+  {
+    "recordId": "VAL-1775578444881-q1yo0jt5w",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:14:04.881Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775578444881-53cdpnzun"
+  },
+  {
+    "recordId": "VAL-1775578655499-uaosy5rv7",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:17:35.499Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 92,
+    "status": "APROVADO",
+    "id": "decision-1775578655499-sgw4rbzjm"
+  },
+  {
+    "recordId": "IMP-1775578891445-0-4ei2f0w3z",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:21:31.445Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775578891445-7dlmi8gad"
+  },
+  {
+    "recordId": "IMP-1775578899236-0-pvf203s0z",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:21:39.236Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775578899236-jgy2782dt"
+  },
+  {
+    "recordId": "IMP-1775578899237-1-qxy6wkkb5",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:21:39.237Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775578899237-eohqdvure"
+  },
+  {
+    "recordId": "IMP-1775578906033-0-eatkguw8e",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:21:46.033Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775578906033-t1yvoas9t"
+  },
+  {
+    "recordId": "IMP-1775578906034-1-3t3f4stds",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:21:46.034Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775578906034-qew3142wh"
+  },
+  {
+    "recordId": "IMP-1775579003738-0-m64qxmwyr",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:23:23.738Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775579003738-bekvapy4c"
+  },
+  {
+    "recordId": "IMP-1775579003740-1-sm6dn8bsy",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:23:23.740Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775579003740-n2mazlsgj"
+  },
+  {
+    "recordId": "IMP-1775579046101-0-uaydmg8eq",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:24:06.101Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775579046101-dh7saez3s"
+  },
+  {
+    "recordId": "IMP-1775579046102-1-d1wn1ib15",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:24:06.103Z",
+    "isAuto": true,
+    "processingTimeMs": 1,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775579046103-bhsu4nm30"
+  },
+  {
+    "recordId": "IMP-1775579046103-2-vepfr07u9",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-04-07T16:24:06.103Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1775579046103-1duokqpv2"
+  }
+]

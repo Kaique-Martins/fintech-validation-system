@@ -1,0 +1,372 @@
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
+import '../styles/AgentControl.css';
+
+interface AgentMetrics {
+  totalProcessed: number;
+  approved: number;
+  rejected: number;
+  flaggedForReview: number;
+  successRate: number;
+  avgProcessingTime: number;
+  rulesApplied: Record<string, number>;
+  lastUpdate: string;
+}
+
+interface AgentDecision {
+  recordId: string;
+  decision: 'APPROVED' | 'REJECTED' | 'FLAGGED' | 'NEUTRAL';
+  confidence: number;
+  rulesApplied: string[];
+  reasoning: string;
+  timestamp: string;
+  isAuto: boolean;
+}
+
+interface AgentRule {
+  id: string;
+  name: string;
+  enabled: boolean;
+  priority: number;
+  condition: {
+    field: string;
+    operator: string;
+    value: any;
+  };
+  action: {
+    autoApprove?: boolean;
+    autoReject?: boolean;
+    flagForReview?: boolean;
+    customMessage?: string;
+  };
+}
+
+interface AgentConfig {
+  rules: AgentRule[];
+  learningMode: 'conservative' | 'balanced' | 'aggressive';
+  autoProcessing: {
+    enabled: boolean;
+    intervalSeconds: number;
+  };
+  notificationsEnabled: boolean;
+}
+
+export const AgentControl: React.FC = () => {
+  const [metrics, setMetrics] = useState<AgentMetrics | null>(null);
+  const [decisions, setDecisions] = useState<AgentDecision[]>([]);
+  const [config, setConfig] = useState<AgentConfig | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [activeTab, setActiveTab] = useState<'metrics' | 'decisions' | 'config'>('metrics');
+  const [refreshInterval, setRefreshInterval] = useState<NodeJS.Timeout | null>(null);
+
+  useEffect(() => {
+    loadAgentData();
+    // Refresh agent metrics every 5 seconds
+    const interval = setInterval(loadAgentData, 5000);
+    setRefreshInterval(interval);
+    return () => clearInterval(interval);
+  }, []);
+
+  const loadAgentData = async () => {
+    try {
+      const [metricsRes, decisionsRes, configRes] = await Promise.all([
+        axios.get('/api/agent/metrics'),
+        axios.get('/api/agent/decisions'),
+        axios.get('/api/agent/config'),
+      ]);
+
+      setMetrics(metricsRes.data);
+      setDecisions(decisionsRes.data);
+      setConfig(configRes.data);
+      setLoading(false);
+    } catch (error) {
+      console.error('Error loading agent data:', error);
+      setLoading(false);
+    }
+  };
+
+  const handleToggleRule = async (ruleId: string, currentEnabled: boolean) => {
+    try {
+      await axios.put(`/api/agent/config`, {
+        ...config,
+        rules: config!.rules.map((r) =>
+          r.id === ruleId ? { ...r, enabled: !currentEnabled } : r
+        ),
+      });
+      await loadAgentData();
+    } catch (error) {
+      console.error('Error toggling rule:', error);
+    }
+  };
+
+  const handleSaveConfig = async () => {
+    try {
+      await axios.put('/api/agent/config', config);
+      await loadAgentData();
+      alert('✅ Configuração salva com sucesso!');
+    } catch (error) {
+      console.error('Error saving config:', error);
+      alert('❌ Erro ao salvar configuração');
+    }
+  };
+
+  const handleResetMetrics = async () => {
+    if (window.confirm('Deseja resetar todas as métricas do agente?')) {
+      try {
+        await axios.post('/api/agent/reset-metrics');
+        await loadAgentData();
+      } catch (error) {
+        console.error('Error resetting metrics:', error);
+      }
+    }
+  };
+
+  const handleToggleAgent = async () => {
+    try {
+      await axios.post('/api/agent/toggle');
+      await loadAgentData();
+    } catch (error) {
+      console.error('Error toggling agent:', error);
+    }
+  };
+
+  if (loading) {
+    return <div className="agent-loading">Carregando Agent...</div>;
+  }
+
+  return (
+    <div className="agent-control-container">
+      <div className="agent-header">
+        <h1>🤖 Autonomous Agent Control</h1>
+        <p>Sistema inteligente de validação autônoma com decisão automática</p>
+      </div>
+
+      <div className="agent-tabs">
+        <button
+          className={`tab-button ${activeTab === 'metrics' ? 'active' : ''}`}
+          onClick={() => setActiveTab('metrics')}
+        >
+          📊 Métricas
+        </button>
+        <button
+          className={`tab-button ${activeTab === 'decisions' ? 'active' : ''}`}
+          onClick={() => setActiveTab('decisions')}
+        >
+          📋 Decisões
+        </button>
+        <button
+          className={`tab-button ${activeTab === 'config' ? 'active' : ''}`}
+          onClick={() => setActiveTab('config')}
+        >
+          ⚙️ Configuração
+        </button>
+      </div>
+
+      {activeTab === 'metrics' && (
+        <div className="agent-metrics-section">
+          <div className="metrics-grid">
+            <div className="metric-card">
+              <div className="metric-label">Total Processado</div>
+              <div className="metric-value">{metrics?.totalProcessed || 0}</div>
+              <div className="metric-unit">registros</div>
+            </div>
+
+            <div className="metric-card approved">
+              <div className="metric-label">✅ Aprovados</div>
+              <div className="metric-value">{metrics?.approved || 0}</div>
+              <div className="metric-unit">
+                {metrics && metrics.totalProcessed > 0
+                  ? ((metrics.approved / metrics.totalProcessed) * 100).toFixed(1)
+                  : 0}
+                %
+              </div>
+            </div>
+
+            <div className="metric-card rejected">
+              <div className="metric-label">❌ Rejeitados</div>
+              <div className="metric-value">{metrics?.rejected || 0}</div>
+              <div className="metric-unit">
+                {metrics && metrics.totalProcessed > 0
+                  ? ((metrics.rejected / metrics.totalProcessed) * 100).toFixed(1)
+                  : 0}
+                %
+              </div>
+            </div>
+
+            <div className="metric-card flagged">
+              <div className="metric-label">🚩 Marcados</div>
+              <div className="metric-value">{metrics?.flaggedForReview || 0}</div>
+              <div className="metric-unit">para revisão</div>
+            </div>
+
+            <div className="metric-card success">
+              <div className="metric-label">Taxa de Sucesso</div>
+              <div className="metric-value">{(metrics?.successRate || 0).toFixed(1)}%</div>
+              <div className="metric-unit">automático</div>
+            </div>
+
+            <div className="metric-card speed">
+              <div className="metric-label">Velocidade</div>
+              <div className="metric-value">{(metrics?.avgProcessingTime || 0).toFixed(0)}</div>
+              <div className="metric-unit">ms/registro</div>
+            </div>
+          </div>
+
+          <div className="agent-actions">
+            <button className="action-button reset" onClick={handleResetMetrics}>
+              🔄 Resetar Métricas
+            </button>
+            <button className="action-button toggle" onClick={handleToggleAgent}>
+              ⚡ Toggle Agent
+            </button>
+          </div>
+
+          {metrics?.rulesApplied && Object.keys(metrics.rulesApplied).length > 0 && (
+            <div className="rules-stats">
+              <h3>📌 Regras Aplicadas</h3>
+              <div className="rules-list">
+                {Object.entries(metrics.rulesApplied).map(([ruleId, count]) => (
+                  <div key={ruleId} className="rule-stat">
+                    <span className="rule-name">{ruleId}</span>
+                    <span className="rule-count">{count} aplicações</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
+      )}
+
+      {activeTab === 'decisions' && (
+        <div className="agent-decisions-section">
+          <h3>Últimas Decisões Autônomas</h3>
+          <div className="decisions-list">
+            {decisions.length === 0 ? (
+              <p className="no-data">Nenhuma decisão registrada ainda</p>
+            ) : (
+              decisions.slice(0, 20).map((decision, idx) => (
+                <div key={idx} className={`decision-item decision-${decision.decision.toLowerCase()}`}>
+                  <div className="decision-header">
+                    <span className="decision-id">{decision.recordId}</span>
+                    <span className={`decision-badge decision-${decision.decision.toLowerCase()}`}>
+                      {decision.decision}
+                    </span>
+                    <span className={`auto-badge ${decision.isAuto ? 'auto' : 'manual'}`}>
+                      {decision.isAuto ? '🤖 Automático' : '👤 Manual'}
+                    </span>
+                  </div>
+                  <div className="decision-body">
+                    <p className="reasoning">{decision.reasoning}</p>
+                    <div className="decision-meta">
+                      <span className="confidence">Confiança: {(decision.confidence * 100).toFixed(0)}%</span>
+                      <span className="timestamp">
+                        {new Date(decision.timestamp).toLocaleTimeString('pt-BR')}
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              ))
+            )}
+          </div>
+        </div>
+      )}
+
+      {activeTab === 'config' && (
+        <div className="agent-config-section">
+          {!config ? (
+            <div className="config-loading">Carregando configurações...</div>
+          ) : (
+            <>
+              <h3>Configuração do Agent</h3>
+
+              <div className="config-item">
+                <label>Modo de Aprendizado</label>
+                <select
+                  value={config.learningMode || 'balanced'}
+                  onChange={(e) => {
+                    setConfig({ ...config, learningMode: e.target.value as any });
+                  }}
+                >
+                  <option value="conservative">🛡️ Conservador (melhor segurança)</option>
+                  <option value="balanced">⚖️ Balanceado (recomendado)</option>
+                  <option value="aggressive">⚡ Agressivo (mais rápido)</option>
+                </select>
+              </div>
+
+              <div className="config-item">
+                <label>
+                  <input
+                    type="checkbox"
+                    checked={config.autoProcessing?.enabled || false}
+                    onChange={(e) => {
+                      setConfig({
+                        ...config,
+                        autoProcessing: {
+                          ...config.autoProcessing,
+                          enabled: e.target.checked,
+                        },
+                      });
+                    }}
+                  />
+                  Processamento Automático
+                </label>
+                <p className="config-hint">Validar automaticamente em intervalos regulares</p>
+              </div>
+
+              <div className="config-item">
+                <label>
+                  <input
+                    type="checkbox"
+                    checked={config.notificationsEnabled || false}
+                    onChange={(e) => {
+                      setConfig({
+                        ...config,
+                        notificationsEnabled: e.target.checked,
+                      });
+                    }}
+                  />
+                  Notificações Habilitadas
+                </label>
+                <p className="config-hint">Receber alertas de decisões críticas</p>
+              </div>
+
+              <div className="rules-section">
+                <h4>📌 Regras Ativas</h4>
+                {config.rules && config.rules.length > 0 ? (
+                  config.rules.map((rule) => (
+                    <div key={rule.id} className="rule-item">
+                      <div className="rule-header">
+                        <label className="rule-toggle">
+                          <input
+                            type="checkbox"
+                            checked={rule.enabled}
+                            onChange={() => handleToggleRule(rule.id, rule.enabled)}
+                          />
+                          <span className="rule-name">{rule.name}</span>
+                        </label>
+                        <span className="rule-priority">Prioridade: {rule.priority}</span>
+                      </div>
+                      <div className="rule-condition">
+                        <code>
+                          {rule.condition.field} {rule.condition.operator} {rule.condition.value}
+                        </code>
+                      </div>
+                    </div>
+                  ))
+                ) : (
+                  <p className="no-rules">Nenhuma regra configurada</p>
+                )}
+              </div>
+
+              <div className="config-save-section">
+                <button className="save-button" onClick={handleSaveConfig}>
+                  💾 Salvar Configurações
+                </button>
+              </div>
+            </>
+          )}
+        </div>
+      )}
+    </div>
+  );
+};

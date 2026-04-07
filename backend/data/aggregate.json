@@ -1,0 +1,16 @@
+{
+  "totalDecisions": 4,
+  "approvalRate": 0,
+  "rejectionRate": 100,
+  "flagRate": 0,
+  "avgConfidence": 80,
+  "avgProcessingTime": 0,
+  "decisionsByDay": {
+    "2026-04-07": 4
+  },
+  "topRules": {
+    "rule-reject-invalid": 4,
+    "rule-low-confidence": 4
+  },
+  "lastUpdated": "2026-04-07T15:10:07.266Z"
+}

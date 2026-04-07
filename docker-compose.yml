@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - '3001:3001'
+    environment:
+      - NODE_ENV=production
+      - PORT=3001
+    networks:
+      - fintech-network
+    healthcheck:
+      test: ['CMD', 'curl', '-f', 'http://localhost:3001/api/validation/info']
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - '3000:3000'
+    depends_on:
+      - backend
+    networks:
+      - fintech-network
+    environment:
+      - VITE_API_URL=http://backend:3001/api
+
+networks:
+  fintech-network:
+    driver: bridge
