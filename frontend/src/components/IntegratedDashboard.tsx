@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
 import '../styles/IntegratedDashboard.css';
+import { api, validationService } from '../services/validationService';
+
+interface IntegratedDashboardProps {
+  onNavigate: (page: 'dashboard' | 'validator' | 'history' | 'import' | 'agent') => void;
+}
 
 interface SystemMetrics {
   validations: number;
@@ -17,7 +21,7 @@ interface ModuleStatus {
   history: { status: 'ready' | 'idle'; recordCount?: number };
 }
 
-export const IntegratedDashboard: React.FC = () => {
+export const IntegratedDashboard: React.FC<IntegratedDashboardProps> = ({ onNavigate }) => {
   const [metrics, setMetrics] = useState<SystemMetrics>({
     validations: 0,
     imports: 0,
@@ -51,8 +55,8 @@ export const IntegratedDashboard: React.FC = () => {
   const loadSystemMetrics = async () => {
     try {
       // Carrega métricas do agent
-      const agentMetrics = await axios.get('/api/agent/metrics');
-      const agentHistory = await axios.get('/api/agent/history/persisted?limit=1');
+      const agentMetrics = await api.get('/agent/metrics');
+      const agentHistory = await api.get('/agent/history/persisted?limit=1');
       
       setMetrics((prev) => ({
         ...prev,
@@ -70,7 +74,7 @@ export const IntegratedDashboard: React.FC = () => {
 
   const checkDemoStatus = async () => {
     try {
-      const response = await axios.get('/api/demo/status');
+      const response = await api.get('/demo/status');
       setDemoRunning(response.data.isRunning);
     } catch (error) {
       console.error('Error checking demo status:', error);
@@ -80,7 +84,7 @@ export const IntegratedDashboard: React.FC = () => {
   const startDemo = async () => {
     try {
       setDemoLoading(true);
-      await axios.post('/api/demo/start');
+      await api.post('/demo/start');
       setDemoRunning(true);
       // Atualiza métricas mais frequentemente durante o demo
       loadSystemMetrics();
@@ -98,7 +102,7 @@ export const IntegratedDashboard: React.FC = () => {
   const stopDemo = async () => {
     try {
       setDemoLoading(true);
-      await axios.post('/api/demo/stop');
+      await api.post('/demo/stop');
       setDemoRunning(false);
     } catch (error) {
       console.error('Error stopping demo:', error);
@@ -217,7 +221,7 @@ export const IntegratedDashboard: React.FC = () => {
             </div>
             <div className="module-description">Importar dados de arquivos</div>
             <div className="module-action">
-              <button className="action-link">→ Ir para Importador</button>
+              <button className="action-link" onClick={() => onNavigate('import')}>→ Ir para Importador</button>
             </div>
           </div>
 
@@ -233,7 +237,7 @@ export const IntegratedDashboard: React.FC = () => {
             </div>
             <div className="module-description">Validar registros importados</div>
             <div className="module-action">
-              <button className="action-link">→ Ir para Validador</button>
+              <button className="action-link" onClick={() => onNavigate('validator')}>→ Ir para Validador</button>
             </div>
           </div>
 
@@ -249,7 +253,7 @@ export const IntegratedDashboard: React.FC = () => {
             </div>
             <div className="module-description">Decisões autônomas em tempo real</div>
             <div className="module-action">
-              <button className="action-link">→ Ir para Agent</button>
+              <button className="action-link" onClick={() => onNavigate('agent')}>→ Ir para Agent</button>
             </div>
           </div>
 
@@ -265,7 +269,7 @@ export const IntegratedDashboard: React.FC = () => {
             </div>
             <div className="module-description">Histórico de validações e decisões</div>
             <div className="module-action">
-              <button className="action-link">→ Ir para Histórico</button>
+              <button className="action-link" onClick={() => onNavigate('history')}>→ Ir para Histórico</button>
             </div>
           </div>
         </div>
@@ -334,12 +338,31 @@ export const IntegratedDashboard: React.FC = () => {
       <div className="quick-actions">
         <h2>⚡ Ações Rápidas</h2>
         <div className="actions-grid">
-          <button className="quick-action">Importar Novo Arquivo</button>
-          <button className="quick-action">Validar Todos</button>
-          <button className="quick-action">Processar com Agent</button>
-          <button className="quick-action">Ver Histórico Completo</button>
-          <button className="quick-action">Exportar Relatório</button>
-          <button className="quick-action">Configurar Agent</button>
+          <button className="quick-action" onClick={() => onNavigate('import')}>Importar Novo Arquivo</button>
+          <button className="quick-action" onClick={() => onNavigate('validator')}>Validar Todos</button>
+          <button className="quick-action" onClick={() => onNavigate('agent')}>Processar com Agent</button>
+          <button className="quick-action" onClick={() => onNavigate('history')}>Ver Histórico Completo</button>
+          <button
+            className="quick-action"
+            onClick={async () => {
+              try {
+                const response = await validationService.getAgentReportCsv();
+                const blob = new Blob([response.data], { type: 'text/csv;charset=utf-8;' });
+                const url = URL.createObjectURL(blob);
+                const link = document.createElement('a');
+                link.href = url;
+                link.download = `agent-report-${new Date().toISOString().split('T')[0]}.csv`;
+                link.click();
+                URL.revokeObjectURL(url);
+              } catch (error) {
+                console.error('Error exporting report:', error);
+                alert('Não foi possível exportar o relatório agora.');
+              }
+            }}
+          >
+            Exportar Relatório
+          </button>
+          <button className="quick-action" onClick={() => onNavigate('agent')}>Configurar Agent</button>
         </div>
       </div>
 

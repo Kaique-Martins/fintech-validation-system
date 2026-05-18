@@ -14,6 +14,18 @@ cd fintech-validation-system/frontend
 npm install
 ```
 
+## Passo 1.1: Configurar Variáveis de Ambiente
+
+Copie os arquivos de exemplo e ajuste os valores conforme o ambiente:
+
+- [frontend/.env.example](frontend/.env.example) -> [frontend/.env](frontend/.env)
+- [backend/.env.example](backend/.env.example) -> [backend/.env](backend/.env)
+
+Em produção, ajuste pelo menos:
+
+- `VITE_API_URL` para a URL pública da API
+- `CORS_ORIGIN` para o domínio do frontend
+
 ## Passo 2: Iniciar os Serviços
 
 ### Terminal 1 - Backend
@@ -212,6 +224,7 @@ O projeto está pronto para **desenvolvimento** e **produção**. Para ambientes
 - Adicionar logging estruturado
 - Configurar CI/CD
 - Adicionar testes automatizados
+- Expor a API e o frontend em domínios separados com `VITE_API_URL` e `CORS_ORIGIN`
 
 ---
 

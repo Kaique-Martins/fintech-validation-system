@@ -1,10 +1,11 @@
 /* Notification Center Styles */
 
 .notification-center {
-  position: fixed;
-  top: 1rem;
-  right: 2rem;
-  z-index: 1000;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 101;
 }
 
 /* Notification Bell */

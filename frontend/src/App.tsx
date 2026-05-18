@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
 import { Navbar } from './components/Navbar';
 import { IntegratedDashboard } from './components/IntegratedDashboard';
 import { Validator } from './components/Validator';
 import { History } from './components/History';
 import { FileUpload } from './components/FileUpload';
 import { AgentControl } from './components/AgentControl';
-import { validationService } from './services/validationService';
+import { api, validationService } from './services/validationService';
 import { ValidationRecord, ValidationResult } from './types/index';
 import './styles/index.css';
 
@@ -21,7 +20,7 @@ function App() {
   const loadHistory = async () => {
     try {
       setHistoryLoading(true);
-      const response = await axios.get('http://localhost:3001/api/agent/history/persisted');
+      const response = await api.get('/agent/history/persisted');
       setHistory(response.data || []);
     } catch (error) {
       console.error('Error loading history:', error);
@@ -51,7 +50,7 @@ function App() {
       }
     } catch (error) {
       console.error('Validation error:', error);
-      alert('Erro ao validar o registro. Verifique se o backend está rodando em http://localhost:3001');
+      alert('Erro ao validar o registro. Verifique se a API está disponível e se a variável VITE_API_URL está correta.');
     } finally {
       setLoading(false);
     }
@@ -80,7 +79,7 @@ function App() {
       <Navbar currentPage={currentPage} onNavigate={setCurrentPage} />
 
       <main className="main-content">
-        {currentPage === 'dashboard' && <IntegratedDashboard />}
+        {currentPage === 'dashboard' && <IntegratedDashboard onNavigate={setCurrentPage} />}
         {currentPage === 'validator' && (
           <Validator onValidate={handleValidate} result={result} loading={loading} />
         )}

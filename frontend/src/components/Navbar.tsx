@@ -54,10 +54,9 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPage, onNavigate }) => {
             <span className="status-dot"></span>
             <span className="status-text">Online</span>
           </div>
+          <NotificationCenter />
         </div>
       </div>
-      
-      <NotificationCenter />
     </nav>
   );
 };
