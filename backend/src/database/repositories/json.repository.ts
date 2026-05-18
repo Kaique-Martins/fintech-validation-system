@@ -136,18 +136,28 @@ export class JsonRepository implements IRepository {
     if (query?.ruleId) {
       decisions = decisions.filter((d) => d.rulesApplied.includes(query.ruleId!));
     }
-    if (query?.confidenceMin) {
+    if (query?.startDate) {
+      const start = new Date(query.startDate);
+      decisions = decisions.filter((d) => new Date(d.timestamp) >= start);
+    }
+    if (query?.endDate) {
+      const end = new Date(query.endDate);
+      decisions = decisions.filter((d) => new Date(d.timestamp) <= end);
+    }
+    if (query?.confidenceMin !== undefined) {
       decisions = decisions.filter((d) => d.confidence >= query.confidenceMin!);
     }
-    if (query?.confidenceMax) {
+    if (query?.confidenceMax !== undefined) {
       decisions = decisions.filter((d) => d.confidence <= query.confidenceMax!);
     }
 
+    decisions = decisions.sort((a, b) => new Date(b.timestamp).getTime() - new Date(a.timestamp).getTime());
+
     // Apply pagination
-    if (query?.offset) {
+    if (query?.offset !== undefined) {
       decisions = decisions.slice(query.offset);
     }
-    if (query?.limit) {
+    if (query?.limit !== undefined) {
       decisions = decisions.slice(0, query.limit);
     }
 
@@ -225,6 +235,10 @@ export class JsonRepository implements IRepository {
     const headers = [
       'ID',
       'RecordID',
+      'Produto',
+      'Categoria',
+      'Preço Original',
+      'Cidade Original',
       'Decision',
       'Confidence',
       'Rules Applied',
@@ -235,6 +249,10 @@ export class JsonRepository implements IRepository {
     const rows = decisions.map((d) => [
       d.id,
       d.recordId,
+      d.input?.produto || '',
+      d.input?.categoria || '',
+      d.input?.preco ?? '',
+      d.input?.cidade || '',
       d.decision,
       d.confidence,
       d.rulesApplied.join(';'),

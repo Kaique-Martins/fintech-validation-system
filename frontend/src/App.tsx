@@ -6,21 +6,21 @@ import { History } from './components/History';
 import { FileUpload } from './components/FileUpload';
 import { AgentControl } from './components/AgentControl';
 import { api, validationService } from './services/validationService';
-import { ValidationRecord, ValidationResult } from './types/index';
+import { ValidationRecord, ValidationResult, AgentHistoryEntry } from './types/index';
 import './styles/index.css';
 
 function App() {
   const [currentPage, setCurrentPage] = useState<'dashboard' | 'validator' | 'history' | 'import' | 'agent'>('dashboard');
   const [result, setResult] = useState<ValidationResult | null>(null);
   const [loading, setLoading] = useState(false);
-  const [history, setHistory] = useState<any[]>([]);
+  const [history, setHistory] = useState<AgentHistoryEntry[]>([]);
   const [historyLoading, setHistoryLoading] = useState(false);
 
   // Carregar histórico do backend
   const loadHistory = async () => {
     try {
       setHistoryLoading(true);
-      const response = await api.get('/agent/history/persisted');
+      const response = await api.get('/agent/history/persisted?limit=200');
       setHistory(response.data || []);
     } catch (error) {
       console.error('Error loading history:', error);
@@ -85,28 +85,7 @@ function App() {
         )}
         {currentPage === 'import' && <FileUpload onUploadComplete={loadHistory} />}
         {currentPage === 'history' && (
-          <History validations={history.map(h => ({
-            id: h.id,
-            input: {
-              produto: h.recordId,
-              categoria: '',
-              preco: 0,
-              cidade: '',
-            },
-            dado_corrigido: {
-              produto: h.recordId,
-              categoria: '',
-              preco: 0,
-              cidade: '',
-            },
-            status: h.decision === 'APPROVED' ? 'APROVADO' : 'QUARENTENA',
-            motivo: h.reasoning,
-            qualityScore: h.qualityScore || 0,
-            confidenceLevel: h.confidence || 0,
-            alerts: [],
-            recommendations: [],
-            timestamp: h.timestamp,
-          }))} />
+          <History validations={history} onRefresh={loadHistory} />
         )}
         {currentPage === 'agent' && <AgentControl />}
       </main>

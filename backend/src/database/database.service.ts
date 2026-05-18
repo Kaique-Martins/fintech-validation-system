@@ -80,10 +80,14 @@ export class DatabaseService {
   async queryDecisions(query: any): Promise<PersistedDecision[]> {
     const repositoryQuery: RepositoryQuery = {
       limit: query.limit,
+      offset: query.offset,
       startDate: query.startDate,
       endDate: query.endDate,
+      status: query.status,
       decision: query.decision,
-      confidenceMin: query.minConfidence,
+      confidenceMin: query.confidenceMin ?? query.minConfidence,
+      confidenceMax: query.confidenceMax ?? query.maxConfidence,
+      ruleId: query.ruleId,
     };
     return await this.repository.getAllDecisions(repositoryQuery);
   }

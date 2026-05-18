@@ -21,6 +21,29 @@ interface ModuleStatus {
   history: { status: 'ready' | 'idle'; recordCount?: number };
 }
 
+interface DemoPreview {
+  recordId: string;
+  scenario: string;
+  input: {
+    produto: string;
+    categoria?: string;
+    preco: number;
+    cidade: string;
+  };
+  validation: {
+    status: 'APROVADO' | 'QUARENTENA';
+    qualityScore: number;
+    confidenceLevel: number;
+    motivo: string;
+  };
+  agentDecision: {
+    decision: 'APPROVED' | 'REJECTED' | 'FLAGGED' | 'NEUTRAL';
+    confidence: number;
+    reasoning: string;
+  };
+  timestamp: string;
+}
+
 export const IntegratedDashboard: React.FC<IntegratedDashboardProps> = ({ onNavigate }) => {
   const [metrics, setMetrics] = useState<SystemMetrics>({
     validations: 0,
@@ -41,13 +64,17 @@ export const IntegratedDashboard: React.FC<IntegratedDashboardProps> = ({ onNavi
   const [selectedFlow, setSelectedFlow] = useState<'full' | 'agent' | 'validator'>('full');
   const [demoRunning, setDemoRunning] = useState(false);
   const [demoLoading, setDemoLoading] = useState(false);
+  const [demoPreview, setDemoPreview] = useState<DemoPreview | null>(null);
+  const [demoNextScenario, setDemoNextScenario] = useState<string>('');
 
   useEffect(() => {
     loadSystemMetrics();
     checkDemoStatus();
+    loadDemoPreview();
     const interval = setInterval(() => {
       loadSystemMetrics();
       checkDemoStatus();
+      loadDemoPreview();
     }, 5000);
     return () => clearInterval(interval);
   }, []);
@@ -81,15 +108,27 @@ export const IntegratedDashboard: React.FC<IntegratedDashboardProps> = ({ onNavi
     }
   };
 
+  const loadDemoPreview = async () => {
+    try {
+      const response = await api.get('/demo/preview');
+      setDemoPreview(response.data.lastSnapshot || null);
+      setDemoNextScenario(response.data.nextScenario || '');
+    } catch (error) {
+      console.error('Error loading demo preview:', error);
+    }
+  };
+
   const startDemo = async () => {
     try {
       setDemoLoading(true);
       await api.post('/demo/start');
       setDemoRunning(true);
+      await loadDemoPreview();
       // Atualiza métricas mais frequentemente durante o demo
       loadSystemMetrics();
       const fastInterval = setInterval(() => {
         loadSystemMetrics();
+        loadDemoPreview();
       }, 2000);
       setTimeout(() => clearInterval(fastInterval), 300000); // Para nach 5 mins
     } catch (error) {
@@ -371,8 +410,16 @@ export const IntegratedDashboard: React.FC<IntegratedDashboardProps> = ({ onNavi
         <h2>🎬 Modo Demonstração</h2>
         <div className="demo-container">
           <div className="demo-info">
-            <p>Inicie o modo demonstração para gerar dados contínuos e visualizar o sistema em ação completa.</p>
-            <p>Status: <strong>{demoRunning ? '🟢 ATIVO' : '⚫ INATIVO'}</strong></p>
+            <p className="demo-kicker">Fluxo guiado para apresentação</p>
+            <p>Inicie a demonstração para acompanhar cenários reais de compra, padronização, inferência e quarentena em sequência.</p>
+            <div className="demo-badges">
+              <span className={`demo-status-badge ${demoRunning ? 'running' : 'stopped'}`}>
+                {demoRunning ? '● Demonstração ativa' : '○ Demonstração inativa'}
+              </span>
+              <span className="demo-status-badge neutral">
+                Próximo: {demoNextScenario || 'aguardando execução'}
+              </span>
+            </div>
           </div>
           <div className="demo-controls">
             {!demoRunning ? (
@@ -394,6 +441,41 @@ export const IntegratedDashboard: React.FC<IntegratedDashboardProps> = ({ onNavi
             )}
           </div>
         </div>
+        {demoPreview && (
+          <div className="demo-preview-card">
+            <div className="demo-preview-header">
+              <strong>Último cenário processado</strong>
+              <span>{new Date(demoPreview.timestamp).toLocaleTimeString('pt-BR')}</span>
+            </div>
+            <div className="demo-preview-grid">
+              <div className="demo-preview-item">
+                <span>Produto</span>
+                <strong>{demoPreview.input.produto}</strong>
+              </div>
+              <div className="demo-preview-item">
+                <span>Categoria</span>
+                <strong>{demoPreview.input.categoria || 'Não informada'}</strong>
+              </div>
+              <div className="demo-preview-item">
+                <span>Preço</span>
+                <strong>R$ {demoPreview.input.preco.toFixed(2)}</strong>
+              </div>
+              <div className="demo-preview-item">
+                <span>Cidade</span>
+                <strong>{demoPreview.input.cidade}</strong>
+              </div>
+              <div className="demo-preview-item">
+                <span>Validação</span>
+                <strong className={demoPreview.validation.status === 'APROVADO' ? 'status-ok' : 'status-review'}>{demoPreview.validation.status}</strong>
+              </div>
+              <div className="demo-preview-item">
+                <span>Agent</span>
+                <strong className={demoPreview.agentDecision.decision === 'APPROVED' ? 'status-ok' : 'status-review'}>{demoPreview.agentDecision.decision}</strong>
+              </div>
+            </div>
+            <p className="demo-preview-note">{demoPreview.scenario}</p>
+          </div>
+        )}
       </div>
 
       {/* Last Update */}

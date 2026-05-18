@@ -12,6 +12,18 @@ export interface PersistedDecision {
   agentVersion: string;
   qualityScore?: number;
   status?: string;
+  input?: {
+    produto: string;
+    categoria?: string;
+    preco: number;
+    cidade: string;
+  };
+  correctedData?: {
+    produto: string;
+    categoria: string;
+    preco: number;
+    cidade: string;
+  };
 }
 
 export interface DecisionAggregate {

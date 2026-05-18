@@ -51,12 +51,40 @@ interface AgentConfig {
   notificationsEnabled: boolean;
 }
 
+interface LearningInsight {
+  type: string;
+  severity: 'low' | 'medium' | 'high';
+  title: string;
+  description: string;
+  recommendation: string;
+  confidence: number;
+  affectedDecisions: number;
+  timestamp: string;
+}
+
+interface LearningStats {
+  totalDecisions: number;
+  approvalRate: number;
+  rejectionRate: number;
+  flagRate: number;
+  avgConfidence: number;
+  decisionAccuracy: number;
+  topPerformingRules: Record<string, number>;
+  bottomPerformingRules: Record<string, number>;
+  anomalies: LearningInsight[];
+  trends: {
+    improvingMetric: string;
+    decreasingMetric: string;
+  };
+}
+
 export const AgentControl: React.FC = () => {
   const [metrics, setMetrics] = useState<AgentMetrics | null>(null);
   const [decisions, setDecisions] = useState<AgentDecision[]>([]);
   const [config, setConfig] = useState<AgentConfig | null>(null);
+  const [learning, setLearning] = useState<LearningStats | null>(null);
   const [loading, setLoading] = useState(true);
-  const [activeTab, setActiveTab] = useState<'metrics' | 'decisions' | 'config'>('metrics');
+  const [activeTab, setActiveTab] = useState<'metrics' | 'decisions' | 'config' | 'insights'>('metrics');
   const [refreshInterval, setRefreshInterval] = useState<NodeJS.Timeout | null>(null);
 
   useEffect(() => {
@@ -69,15 +97,17 @@ export const AgentControl: React.FC = () => {
 
   const loadAgentData = async () => {
     try {
-      const [metricsRes, decisionsRes, configRes] = await Promise.all([
+      const [metricsRes, decisionsRes, configRes, learningRes] = await Promise.all([
         axios.get('/api/agent/metrics'),
         axios.get('/api/agent/decisions'),
         axios.get('/api/agent/config'),
+        axios.get('/api/agent/learning/analyze'),
       ]);
 
       setMetrics(metricsRes.data);
       setDecisions(decisionsRes.data);
       setConfig(configRes.data);
+      setLearning(learningRes.data);
       setLoading(false);
     } catch (error) {
       console.error('Error loading agent data:', error);
@@ -153,6 +183,12 @@ export const AgentControl: React.FC = () => {
           onClick={() => setActiveTab('decisions')}
         >
           📋 Decisões
+        </button>
+        <button
+          className={`tab-button ${activeTab === 'insights' ? 'active' : ''}`}
+          onClick={() => setActiveTab('insights')}
+        >
+          🧠 Insights
         </button>
         <button
           className={`tab-button ${activeTab === 'config' ? 'active' : ''}`}
@@ -258,7 +294,7 @@ export const AgentControl: React.FC = () => {
                   <div className="decision-body">
                     <p className="reasoning">{decision.reasoning}</p>
                     <div className="decision-meta">
-                      <span className="confidence">Confiança: {(decision.confidence * 100).toFixed(0)}%</span>
+                      <span className="confidence">Confiança: {decision.confidence.toFixed(0)}%</span>
                       <span className="timestamp">
                         {new Date(decision.timestamp).toLocaleTimeString('pt-BR')}
                       </span>
@@ -268,6 +304,80 @@ export const AgentControl: React.FC = () => {
               ))
             )}
           </div>
+        </div>
+      )}
+
+      {activeTab === 'insights' && (
+        <div className="agent-insights-section">
+          {!learning ? (
+            <div className="config-loading">Carregando insights...</div>
+          ) : (
+            <>
+              <div className="metrics-grid">
+                <div className="metric-card">
+                  <div className="metric-label">Decisões analisadas</div>
+                  <div className="metric-value">{learning.totalDecisions}</div>
+                  <div className="metric-unit">histórico</div>
+                </div>
+                <div className="metric-card approved">
+                  <div className="metric-label">Taxa de aprovação</div>
+                  <div className="metric-value">{learning.approvalRate.toFixed(1)}%</div>
+                  <div className="metric-unit">global</div>
+                </div>
+                <div className="metric-card rejected">
+                  <div className="metric-label">Taxa de rejeição</div>
+                  <div className="metric-value">{learning.rejectionRate.toFixed(1)}%</div>
+                  <div className="metric-unit">global</div>
+                </div>
+                <div className="metric-card flagged">
+                  <div className="metric-label">Taxa de revisão</div>
+                  <div className="metric-value">{learning.flagRate.toFixed(1)}%</div>
+                  <div className="metric-unit">global</div>
+                </div>
+                <div className="metric-card success">
+                  <div className="metric-label">Confiança média</div>
+                  <div className="metric-value">{learning.avgConfidence.toFixed(1)}%</div>
+                  <div className="metric-unit">decisões</div>
+                </div>
+                <div className="metric-card speed">
+                  <div className="metric-label">Precisão estimada</div>
+                  <div className="metric-value">{learning.decisionAccuracy.toFixed(1)}%</div>
+                  <div className="metric-unit">score</div>
+                </div>
+              </div>
+
+              <div className="agent-actions">
+                <div className="insight-callout">
+                  <strong>Melhoria</strong>
+                  <span>{learning.trends.improvingMetric}</span>
+                </div>
+                <div className="insight-callout">
+                  <strong>Declínio</strong>
+                  <span>{learning.trends.decreasingMetric}</span>
+                </div>
+              </div>
+
+              <div className="rules-stats">
+                <h3>🧠 Insights e alertas</h3>
+                {learning.anomalies.length > 0 ? (
+                  <div className="insights-list">
+                    {learning.anomalies.map((insight, idx) => (
+                      <div key={idx} className={`insight-card insight-${insight.severity}`}>
+                        <div className="insight-card-header">
+                          <strong>{insight.title}</strong>
+                          <span>{(insight.confidence * 100).toFixed(0)}%</span>
+                        </div>
+                        <p>{insight.description}</p>
+                        <small>{insight.recommendation}</small>
+                      </div>
+                    ))}
+                  </div>
+                ) : (
+                  <p className="no-rules">Nenhum insight crítico detectado no momento</p>
+                )}
+              </div>
+            </>
+          )}
         </div>
       )}
 

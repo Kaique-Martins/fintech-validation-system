@@ -6,7 +6,7 @@ import {
   AgentDecision,
   DEFAULT_AGENT_CONFIG,
 } from './agent.types';
-import { ValidationResultDto } from '../validation/dto/validation.dto';
+import { ValidationResultDto, ValidationRecordDto } from '../validation/dto/validation.dto';
 import { DatabaseService } from '../database/database.service';
 import { LearningService } from './learning.service';
 
@@ -36,6 +36,7 @@ export class AgentService {
   evaluateValidation(
     recordId: string,
     validation: ValidationResultDto,
+    inputRecord?: ValidationRecordDto,
   ): AgentDecision {
     const startTime = Date.now();
     const appliedRules: string[] = [];
@@ -113,6 +114,8 @@ export class AgentService {
       agentVersion: '1.0.0',
       qualityScore: validation.qualityScore,
       status: validation.status,
+      input: inputRecord,
+      correctedData: validation.dado_corrigido,
     });
 
     // Mantém apenas últimas 1000 decisões
@@ -270,11 +273,25 @@ export class AgentService {
   /**
    * Retorna histórico persistido de decisões
    */
-  async getPersistedDecisions(limit = 100, decision?: string, minConfidence?: number) {
+  async getPersistedDecisions(query: {
+    limit?: number;
+    decision?: string;
+    status?: string;
+    ruleId?: string;
+    startDate?: string;
+    endDate?: string;
+    minConfidence?: number;
+    maxConfidence?: number;
+  } = {}) {
     return await this.dbService.queryDecisions({
-      limit,
-      decision: decision as any,
-      minConfidence,
+      limit: query.limit,
+      decision: query.decision as any,
+      status: query.status,
+      ruleId: query.ruleId,
+      startDate: query.startDate,
+      endDate: query.endDate,
+      confidenceMin: query.minConfidence,
+      confidenceMax: query.maxConfidence,
     });
   }
 
@@ -295,8 +312,26 @@ export class AgentService {
   /**
    * Exporta decisões como CSV
    */
-  exportDecisionsAsCSV() {
-    return this.dbService.exportAsCSV();
+  exportDecisionsAsCSV(query?: {
+    limit?: number;
+    decision?: string;
+    status?: string;
+    ruleId?: string;
+    startDate?: string;
+    endDate?: string;
+    minConfidence?: number;
+    maxConfidence?: number;
+  }) {
+    return this.dbService.exportAsCSV({
+      limit: query?.limit,
+      decision: query?.decision as any,
+      status: query?.status,
+      ruleId: query?.ruleId,
+      startDate: query?.startDate,
+      endDate: query?.endDate,
+      confidenceMin: query?.minConfidence,
+      confidenceMax: query?.maxConfidence,
+    });
   }
 
   /**

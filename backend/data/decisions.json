@@ -2701,5 +2701,5491 @@
     "qualityScore": 100,
     "status": "APROVADO",
     "id": "decision-1778680313644-km2d53j70"
+  },
+  {
+    "recordId": "DEMO-1779106445934-h9fyuorv4",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:14:05.937Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1779106445937-edwoenyus"
+  },
+  {
+    "recordId": "DEMO-1779106448935-i77ckvl6v",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:14:08.936Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1779106448936-w1mbqvpzu"
+  },
+  {
+    "recordId": "DEMO-1779106585983-55svt1eoa",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:16:25.989Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1779106585989-6eqzamqbk"
+  },
+  {
+    "recordId": "DEMO-1779106588983-72vodplva",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:16:28.985Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 84,
+    "status": "APROVADO",
+    "id": "decision-1779106588985-4teasnryj"
+  },
+  {
+    "recordId": "DEMO-1779106591983-tbd5bf11x",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:16:31.986Z",
+    "isAuto": true,
+    "processingTimeMs": 1,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "id": "decision-1779106591986-0qdopq4oo"
+  },
+  {
+    "recordId": "DEMO-1779106598266-3p9ttjqrb",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:16:38.268Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1779106598268-6ysjo5eqi"
+  },
+  {
+    "recordId": "DEMO-1779106601267-63pat8dqk",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:16:41.268Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 92,
+    "status": "APROVADO",
+    "id": "decision-1779106601268-0en33ljx8"
+  },
+  {
+    "recordId": "DEMO-1779106604268-s4m7ht6rc",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:16:44.269Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1779106604269-w1hfhy1zr"
+  },
+  {
+    "recordId": "DEMO-1779106607276-k2ybtodta",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:16:47.277Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "id": "decision-1779106607277-9uie5s0p6"
+  },
+  {
+    "recordId": "DEMO-1779106610282-2jn47z3au",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:16:50.282Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1779106610282-phstu7oqk"
+  },
+  {
+    "recordId": "DEMO-1779106613286-16i0zf27a",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:16:53.287Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1779106613287-5xwhgqtnt"
+  },
+  {
+    "recordId": "DEMO-1779106616287-01khhgpvv",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:16:56.289Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 84,
+    "status": "APROVADO",
+    "id": "decision-1779106616290-6s4zi649z"
+  },
+  {
+    "recordId": "DEMO-1779106619290-koz8hcpbu",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:16:59.291Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "id": "decision-1779106619291-ayjej5zxc"
+  },
+  {
+    "recordId": "DEMO-1779106622305-kxfq51oyq",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:17:02.307Z",
+    "isAuto": true,
+    "processingTimeMs": 1,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1779106622307-he5pr1sgq"
+  },
+  {
+    "recordId": "DEMO-1779106625306-veu5lxoeh",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:17:05.307Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 92,
+    "status": "APROVADO",
+    "id": "decision-1779106625307-xxiu1xra5"
+  },
+  {
+    "recordId": "DEMO-1779106628320-n8efryvfj",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:17:08.320Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1779106628320-w8hw3ayv5"
+  },
+  {
+    "recordId": "DEMO-1779106631320-7e9lok93t",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:17:11.321Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "id": "decision-1779106631321-qhf8a42m0"
+  },
+  {
+    "recordId": "DEMO-1779106634320-51rry27lr",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:17:14.322Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1779106634322-8kjm9b414"
+  },
+  {
+    "recordId": "DEMO-1779106837471-eitriz04m",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:20:37.472Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1779106837472-zefh0jpmq"
+  },
+  {
+    "recordId": "DEMO-1779106840471-j3401fh6a",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:20:40.472Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 84,
+    "status": "APROVADO",
+    "id": "decision-1779106840472-7a33jmhn6"
+  },
+  {
+    "recordId": "DEMO-1779106843472-9zvt8ylrx",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:20:43.473Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "id": "decision-1779106843473-jpw4ptgwt"
+  },
+  {
+    "recordId": "DEMO-1779107157498-jwhz7jims",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:25:57.500Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1779107157500-azlnes7e6"
+  },
+  {
+    "recordId": "DEMO-1779107160505-bsbk48qif",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:26:00.507Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 84,
+    "status": "APROVADO",
+    "id": "decision-1779107160507-kyxqufo04"
+  },
+  {
+    "recordId": "DEMO-1779107163521-ni350s01t",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:26:03.522Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 92,
+    "status": "APROVADO",
+    "id": "decision-1779107163522-ca2u2uv80"
+  },
+  {
+    "recordId": "DEMO-1779107166522-t12hti8ax",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:26:06.525Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1779107166525-a77q5nty6"
+  },
+  {
+    "recordId": "DEMO-1779107169530-79awd6aua",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:26:09.530Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "id": "decision-1779107169530-k45d6wrrv"
+  },
+  {
+    "recordId": "DEMO-1779107172538-5vc6lyjww",
+    "decision": "REJECTED",
+    "confidence": 75,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:26:12.538Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 70,
+    "status": "QUARENTENA",
+    "id": "decision-1779107172538-bgmwi3u7r"
+  },
+  {
+    "recordId": "DEMO-1779107175538-la7z7s36n",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:26:15.539Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "id": "decision-1779107175539-lrkd3kkk4"
+  },
+  {
+    "recordId": "DEMO-1779107178539-ltku1tuok",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:26:18.540Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1779107178540-3nuls9eom"
+  },
+  {
+    "recordId": "DEMO-1779107181555-67e0q0kct",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:26:21.556Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1779107181556-b2kqghavi"
+  },
+  {
+    "recordId": "DEMO-1779107184556-jntf5nxr0",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:26:24.557Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 84,
+    "status": "APROVADO",
+    "id": "decision-1779107184557-7tb0t3lj6"
+  },
+  {
+    "recordId": "DEMO-1779107187571-7153yhjoo",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:26:27.571Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 92,
+    "status": "APROVADO",
+    "id": "decision-1779107187571-ld2k6dk66"
+  },
+  {
+    "recordId": "DEMO-1779107190571-os19m9vsv",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:26:30.572Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1779107190572-giy7zplij"
+  },
+  {
+    "recordId": "DEMO-1779107193571-9e49wu67r",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:26:33.572Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "id": "decision-1779107193572-spkwmi0ms"
+  },
+  {
+    "recordId": "DEMO-1779107196573-x4308aoi9",
+    "decision": "REJECTED",
+    "confidence": 75,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:26:36.574Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 70,
+    "status": "QUARENTENA",
+    "id": "decision-1779107196574-fruzgojpc"
+  },
+  {
+    "recordId": "DEMO-1779107199588-28rynezo0",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:26:39.588Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "id": "decision-1779107199588-i5a41hu2l"
+  },
+  {
+    "recordId": "DEMO-1779107202604-ufb5axvfs",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:26:42.604Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1779107202604-0hllqq43y"
+  },
+  {
+    "recordId": "DEMO-1779107205605-1cnfvaq3m",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:26:45.606Z",
+    "isAuto": true,
+    "processingTimeMs": 1,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1779107205606-krkqcqx9d"
+  },
+  {
+    "recordId": "DEMO-1779107208606-sqcnhsj6d",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:26:48.607Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 84,
+    "status": "APROVADO",
+    "id": "decision-1779107208607-ev9jv60nb"
+  },
+  {
+    "recordId": "DEMO-1779107211605-lybl92l6l",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:26:51.606Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 92,
+    "status": "APROVADO",
+    "id": "decision-1779107211606-05lqbwifa"
+  },
+  {
+    "recordId": "DEMO-1779107214605-4vtq7vu92",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:26:54.606Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1779107214606-5o2fgp1qz"
+  },
+  {
+    "recordId": "DEMO-1779107217605-0y9zwd1h7",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:26:57.606Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "id": "decision-1779107217606-xeqmvr75v"
+  },
+  {
+    "recordId": "DEMO-1779107220621-ex5c1ux4e",
+    "decision": "REJECTED",
+    "confidence": 75,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:27:00.623Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 70,
+    "status": "QUARENTENA",
+    "id": "decision-1779107220623-7prwt46y1"
+  },
+  {
+    "recordId": "DEMO-1779107223621-n10kmu1m4",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:27:03.622Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "id": "decision-1779107223622-w8uvzbqru"
+  },
+  {
+    "recordId": "DEMO-1779107226632-8qz3lxjcf",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:27:06.632Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1779107226632-t0h8bq7yv"
+  },
+  {
+    "recordId": "DEMO-1779107229631-yn32bptfl",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:27:09.632Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1779107229632-3xpdlql0p"
+  },
+  {
+    "recordId": "DEMO-1779107232633-bef8bqdmg",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:27:12.635Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 84,
+    "status": "APROVADO",
+    "id": "decision-1779107232635-utepql6y6"
+  },
+  {
+    "recordId": "DEMO-1779107235633-5e5deywxz",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:27:15.635Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 92,
+    "status": "APROVADO",
+    "id": "decision-1779107235635-c2n4th5hx"
+  },
+  {
+    "recordId": "DEMO-1779107238633-fzxrp01xr",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:27:18.634Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1779107238634-v6xwpeh74"
+  },
+  {
+    "recordId": "DEMO-1779107241650-85mpmfr0a",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:27:21.651Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "id": "decision-1779107241651-9hdd6tibt"
+  },
+  {
+    "recordId": "DEMO-1779107244651-gte1urfoc",
+    "decision": "REJECTED",
+    "confidence": 75,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:27:24.652Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 70,
+    "status": "QUARENTENA",
+    "id": "decision-1779107244652-5fzkdvc68"
+  },
+  {
+    "recordId": "DEMO-1779107247667-2nqvbw6xf",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:27:27.669Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "id": "decision-1779107247669-4ym1y92l7"
+  },
+  {
+    "recordId": "DEMO-1779107250682-2necwyc51",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:27:30.683Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1779107250683-87w32zdtf"
+  },
+  {
+    "recordId": "DEMO-1779107253682-xzygc6yss",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:27:33.683Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "id": "decision-1779107253683-h0qtozvzn"
+  },
+  {
+    "recordId": "DEMO-1779107256683-8hq79zozy",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:27:36.683Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 84,
+    "status": "APROVADO",
+    "id": "decision-1779107256683-76swjtfj0"
+  },
+  {
+    "recordId": "DEMO-1779107259700-08ol6tys1",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:27:39.702Z",
+    "isAuto": true,
+    "processingTimeMs": 1,
+    "agentVersion": "1.0.0",
+    "qualityScore": 92,
+    "status": "APROVADO",
+    "id": "decision-1779107259702-amuw20rvq"
+  },
+  {
+    "recordId": "DEMO-1779107650565-6ke9cydkt",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:34:10.566Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Notebook Dell Inspiron 15 3520",
+      "categoria": "Eletrônicos",
+      "preco": 3993,
+      "cidade": "São Paulo"
+    },
+    "correctedData": {
+      "produto": "Notebook Dell Inspiron 15 3520",
+      "categoria": "Eletrônicos",
+      "preco": 3993,
+      "cidade": "São Paulo"
+    },
+    "id": "decision-1779107650566-pbyoqn5wc"
+  },
+  {
+    "recordId": "DEMO-1779107653570-qqwmainna",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:34:13.571Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 84,
+    "status": "APROVADO",
+    "input": {
+      "produto": "iPhone 15 128GB",
+      "categoria": "",
+      "preco": 6350.46,
+      "cidade": "RJ"
+    },
+    "correctedData": {
+      "produto": "iPhone 15 128GB",
+      "categoria": "Eletrônicos",
+      "preco": 6350.46,
+      "cidade": "Rio de Janeiro"
+    },
+    "id": "decision-1779107653571-quza04ysx"
+  },
+  {
+    "recordId": "DEMO-1779107656573-rvchkx7mk",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:34:16.574Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 92,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Smart TV LG 55 polegadas 4K",
+      "categoria": "eletronicos",
+      "preco": 2971.6,
+      "cidade": "sp"
+    },
+    "correctedData": {
+      "produto": "Smart TV LG 55 polegadas 4K",
+      "categoria": "Eletrônicos",
+      "preco": 2971.6,
+      "cidade": "São Paulo"
+    },
+    "id": "decision-1779107656574-ed17bbrvu"
+  },
+  {
+    "recordId": "DEMO-1779107659589-4fcv5pr1w",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:34:19.589Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Serviço de instalação de ar-condicionado split",
+      "categoria": "Serviços",
+      "preco": 508.72,
+      "cidade": "Curitiba"
+    },
+    "correctedData": {
+      "produto": "Serviço de instalação de ar-condicionado split",
+      "categoria": "Serviços",
+      "preco": 508.72,
+      "cidade": "Curitiba"
+    },
+    "id": "decision-1779107659589-m9l36a9fw"
+  },
+  {
+    "recordId": "DEMO-1779107662589-hoazr3kxd",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:34:22.591Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Geladeira Brastemp Frost Free 375L",
+      "categoria": "Eletrodomésticos",
+      "preco": 4134.32,
+      "cidade": "Belo Horizonte"
+    },
+    "correctedData": {
+      "produto": "Geladeira Brastemp Frost Free 375L",
+      "categoria": "Eletrodomésticos",
+      "preco": 4134.32,
+      "cidade": "Belo Horizonte"
+    },
+    "id": "decision-1779107662591-vma3lhpft"
+  },
+  {
+    "recordId": "DEMO-1779107665589-wtqnm4qj0",
+    "decision": "REJECTED",
+    "confidence": 75,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:34:25.591Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 70,
+    "status": "QUARENTENA",
+    "input": {
+      "produto": "Notebook Samsung Book",
+      "categoria": "Eletrônicos",
+      "preco": 0.01,
+      "cidade": "Fortaleza"
+    },
+    "correctedData": {
+      "produto": "Notebook Samsung Book",
+      "categoria": "Eletrônicos",
+      "preco": 0.01,
+      "cidade": "Fortaleza"
+    },
+    "id": "decision-1779107665591-hhyk1x6rz"
+  },
+  {
+    "recordId": "DEMO-1779107668606-1rzr4uee9",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:34:28.607Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Cesta básica familiar mensal",
+      "preco": 238.95,
+      "cidade": "Recife"
+    },
+    "correctedData": {
+      "produto": "Cesta básica familiar mensal",
+      "categoria": "Alimentos",
+      "preco": 238.95,
+      "cidade": "Recife"
+    },
+    "id": "decision-1779107668607-uaxq0og0m"
+  },
+  {
+    "recordId": "DEMO-1779107671611-av6yc2h3g",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:34:31.612Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Camiseta algodão premium",
+      "categoria": "Vestuário",
+      "preco": 87.91,
+      "cidade": "Porto Alegre"
+    },
+    "correctedData": {
+      "produto": "Camiseta algodão premium",
+      "categoria": "Vestuário",
+      "preco": 87.91,
+      "cidade": "Porto Alegre"
+    },
+    "id": "decision-1779107671612-f1fdh0gsa"
+  },
+  {
+    "recordId": "DEMO-1779107674613-k9q4zbhcc",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:34:34.614Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Notebook Dell Inspiron 15 3520",
+      "categoria": "Eletrônicos",
+      "preco": 3939.03,
+      "cidade": "São Paulo"
+    },
+    "correctedData": {
+      "produto": "Notebook Dell Inspiron 15 3520",
+      "categoria": "Eletrônicos",
+      "preco": 3939.03,
+      "cidade": "São Paulo"
+    },
+    "id": "decision-1779107674614-lwr9o9vtu"
+  },
+  {
+    "recordId": "DEMO-1779107870284-juf8qqrjy",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:37:50.286Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Notebook Dell Inspiron 15 3520",
+      "categoria": "Eletrônicos",
+      "preco": 4013,
+      "cidade": "São Paulo"
+    },
+    "correctedData": {
+      "produto": "Notebook Dell Inspiron 15 3520",
+      "categoria": "Eletrônicos",
+      "preco": 4013,
+      "cidade": "São Paulo"
+    },
+    "id": "decision-1779107870286-vfw7npzan"
+  },
+  {
+    "recordId": "DEMO-1779107873298-7h7i4ksw7",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:37:53.298Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 84,
+    "status": "APROVADO",
+    "input": {
+      "produto": "iPhone 15 128GB",
+      "categoria": "",
+      "preco": 6355.46,
+      "cidade": "RJ"
+    },
+    "correctedData": {
+      "produto": "iPhone 15 128GB",
+      "categoria": "Eletrônicos",
+      "preco": 6355.46,
+      "cidade": "Rio de Janeiro"
+    },
+    "id": "decision-1779107873298-uqhs27k4e"
+  },
+  {
+    "recordId": "DEMO-1779107876302-p115ttzg5",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:37:56.303Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 92,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Smart TV LG 55 polegadas 4K",
+      "categoria": "eletronicos",
+      "preco": 3091.48,
+      "cidade": "sp"
+    },
+    "correctedData": {
+      "produto": "Smart TV LG 55 polegadas 4K",
+      "categoria": "Eletrônicos",
+      "preco": 3091.48,
+      "cidade": "São Paulo"
+    },
+    "id": "decision-1779107876303-m1gre64b9"
+  },
+  {
+    "recordId": "DEMO-1779107879315-2tswovs8a",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:37:59.315Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Serviço de instalação de ar-condicionado split",
+      "categoria": "Serviços",
+      "preco": 465.79,
+      "cidade": "Curitiba"
+    },
+    "correctedData": {
+      "produto": "Serviço de instalação de ar-condicionado split",
+      "categoria": "Serviços",
+      "preco": 465.79,
+      "cidade": "Curitiba"
+    },
+    "id": "decision-1779107879315-njdpthc4v"
+  },
+  {
+    "recordId": "DEMO-1779107882316-r3109p2ss",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:38:02.316Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Geladeira Brastemp Frost Free 375L",
+      "categoria": "Eletrodomésticos",
+      "preco": 4420.49,
+      "cidade": "Belo Horizonte"
+    },
+    "correctedData": {
+      "produto": "Geladeira Brastemp Frost Free 375L",
+      "categoria": "Eletrodomésticos",
+      "preco": 4420.49,
+      "cidade": "Belo Horizonte"
+    },
+    "id": "decision-1779107882316-hozfhy94z"
+  },
+  {
+    "recordId": "DEMO-1779107885331-vivcwdvs1",
+    "decision": "REJECTED",
+    "confidence": 75,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:38:05.331Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 70,
+    "status": "QUARENTENA",
+    "input": {
+      "produto": "Notebook Samsung Book",
+      "categoria": "Eletrônicos",
+      "preco": 0.01,
+      "cidade": "Fortaleza"
+    },
+    "correctedData": {
+      "produto": "Notebook Samsung Book",
+      "categoria": "Eletrônicos",
+      "preco": 0.01,
+      "cidade": "Fortaleza"
+    },
+    "id": "decision-1779107885331-f7w19ytj6"
+  },
+  {
+    "recordId": "DEMO-1779107888331-u1d6ph3hq",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:38:08.332Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Cesta básica familiar mensal",
+      "preco": 256.17,
+      "cidade": "Recife"
+    },
+    "correctedData": {
+      "produto": "Cesta básica familiar mensal",
+      "categoria": "Alimentos",
+      "preco": 256.17,
+      "cidade": "Recife"
+    },
+    "id": "decision-1779107888332-2t16hjqob"
+  },
+  {
+    "recordId": "DEMO-1779107891331-f3g7bjk2v",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:38:11.331Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Camiseta algodão premium",
+      "categoria": "Vestuário",
+      "preco": 96.48,
+      "cidade": "Porto Alegre"
+    },
+    "correctedData": {
+      "produto": "Camiseta algodão premium",
+      "categoria": "Vestuário",
+      "preco": 96.48,
+      "cidade": "Porto Alegre"
+    },
+    "id": "decision-1779107891331-f8ybzpkkf"
+  },
+  {
+    "recordId": "DEMO-1779107894331-vzifgn2ii",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:38:14.332Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Notebook Dell Inspiron 15 3520",
+      "categoria": "Eletrônicos",
+      "preco": 4012.87,
+      "cidade": "São Paulo"
+    },
+    "correctedData": {
+      "produto": "Notebook Dell Inspiron 15 3520",
+      "categoria": "Eletrônicos",
+      "preco": 4012.87,
+      "cidade": "São Paulo"
+    },
+    "id": "decision-1779107894332-r9zwsc65p"
+  },
+  {
+    "recordId": "DEMO-1779107897347-gu56h55vw",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:38:17.348Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 84,
+    "status": "APROVADO",
+    "input": {
+      "produto": "iPhone 15 128GB",
+      "categoria": "",
+      "preco": 6279.91,
+      "cidade": "RJ"
+    },
+    "correctedData": {
+      "produto": "iPhone 15 128GB",
+      "categoria": "Eletrônicos",
+      "preco": 6279.91,
+      "cidade": "Rio de Janeiro"
+    },
+    "id": "decision-1779107897348-1jasuieta"
+  },
+  {
+    "recordId": "DEMO-1779107900347-sftvan1by",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:38:20.348Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 92,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Smart TV LG 55 polegadas 4K",
+      "categoria": "eletronicos",
+      "preco": 2972.79,
+      "cidade": "sp"
+    },
+    "correctedData": {
+      "produto": "Smart TV LG 55 polegadas 4K",
+      "categoria": "Eletrônicos",
+      "preco": 2972.79,
+      "cidade": "São Paulo"
+    },
+    "id": "decision-1779107900348-cwm5j7llf"
+  },
+  {
+    "recordId": "DEMO-1779107903347-btthpsb8c",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:38:23.347Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Serviço de instalação de ar-condicionado split",
+      "categoria": "Serviços",
+      "preco": 505.06,
+      "cidade": "Curitiba"
+    },
+    "correctedData": {
+      "produto": "Serviço de instalação de ar-condicionado split",
+      "categoria": "Serviços",
+      "preco": 505.06,
+      "cidade": "Curitiba"
+    },
+    "id": "decision-1779107903347-qm84wu4ct"
+  },
+  {
+    "recordId": "DEMO-1779107906348-yz0oglqca",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:38:26.349Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Geladeira Brastemp Frost Free 375L",
+      "categoria": "Eletrodomésticos",
+      "preco": 4419.73,
+      "cidade": "Belo Horizonte"
+    },
+    "correctedData": {
+      "produto": "Geladeira Brastemp Frost Free 375L",
+      "categoria": "Eletrodomésticos",
+      "preco": 4419.73,
+      "cidade": "Belo Horizonte"
+    },
+    "id": "decision-1779107906349-m28jxn1gp"
+  },
+  {
+    "recordId": "DEMO-1779107909348-hkdq8p2rv",
+    "decision": "REJECTED",
+    "confidence": 75,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:38:29.349Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 70,
+    "status": "QUARENTENA",
+    "input": {
+      "produto": "Notebook Samsung Book",
+      "categoria": "Eletrônicos",
+      "preco": 0.01,
+      "cidade": "Fortaleza"
+    },
+    "correctedData": {
+      "produto": "Notebook Samsung Book",
+      "categoria": "Eletrônicos",
+      "preco": 0.01,
+      "cidade": "Fortaleza"
+    },
+    "id": "decision-1779107909349-gfmpsdtdl"
+  },
+  {
+    "recordId": "DEMO-1779107912349-qh6uc8qol",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:38:32.349Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Cesta básica familiar mensal",
+      "preco": 260.69,
+      "cidade": "Recife"
+    },
+    "correctedData": {
+      "produto": "Cesta básica familiar mensal",
+      "categoria": "Alimentos",
+      "preco": 260.69,
+      "cidade": "Recife"
+    },
+    "id": "decision-1779107912349-5h0i2kutf"
+  },
+  {
+    "recordId": "DEMO-1779107915365-zpsyje3h1",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:38:35.366Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Camiseta algodão premium",
+      "categoria": "Vestuário",
+      "preco": 97.01,
+      "cidade": "Porto Alegre"
+    },
+    "correctedData": {
+      "produto": "Camiseta algodão premium",
+      "categoria": "Vestuário",
+      "preco": 97.01,
+      "cidade": "Porto Alegre"
+    },
+    "id": "decision-1779107915366-0qb8a81rk"
+  },
+  {
+    "recordId": "DEMO-1779107918365-k0orjaov9",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:38:38.365Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Notebook Dell Inspiron 15 3520",
+      "categoria": "Eletrônicos",
+      "preco": 3905.91,
+      "cidade": "São Paulo"
+    },
+    "correctedData": {
+      "produto": "Notebook Dell Inspiron 15 3520",
+      "categoria": "Eletrônicos",
+      "preco": 3905.91,
+      "cidade": "São Paulo"
+    },
+    "id": "decision-1779107918365-lidmuexqo"
+  },
+  {
+    "recordId": "DEMO-1779107921380-w8orltclx",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:38:41.381Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 84,
+    "status": "APROVADO",
+    "input": {
+      "produto": "iPhone 15 128GB",
+      "categoria": "",
+      "preco": 6260.55,
+      "cidade": "RJ"
+    },
+    "correctedData": {
+      "produto": "iPhone 15 128GB",
+      "categoria": "Eletrônicos",
+      "preco": 6260.55,
+      "cidade": "Rio de Janeiro"
+    },
+    "id": "decision-1779107921381-5ne0tewfd"
+  },
+  {
+    "recordId": "DEMO-1779107924381-2dzbctega",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:38:44.381Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 92,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Smart TV LG 55 polegadas 4K",
+      "categoria": "eletronicos",
+      "preco": 3029.76,
+      "cidade": "sp"
+    },
+    "correctedData": {
+      "produto": "Smart TV LG 55 polegadas 4K",
+      "categoria": "Eletrônicos",
+      "preco": 3029.76,
+      "cidade": "São Paulo"
+    },
+    "id": "decision-1779107924381-dopn6b4lb"
+  },
+  {
+    "recordId": "DEMO-1779107927380-4eb6s4plb",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:38:47.381Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Serviço de instalação de ar-condicionado split",
+      "categoria": "Serviços",
+      "preco": 467.78,
+      "cidade": "Curitiba"
+    },
+    "correctedData": {
+      "produto": "Serviço de instalação de ar-condicionado split",
+      "categoria": "Serviços",
+      "preco": 467.78,
+      "cidade": "Curitiba"
+    },
+    "id": "decision-1779107927381-zdta3xvdx"
+  },
+  {
+    "recordId": "DEMO-1779107930391-gnat6nyn8",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:38:50.391Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Geladeira Brastemp Frost Free 375L",
+      "categoria": "Eletrodomésticos",
+      "preco": 4048.06,
+      "cidade": "Belo Horizonte"
+    },
+    "correctedData": {
+      "produto": "Geladeira Brastemp Frost Free 375L",
+      "categoria": "Eletrodomésticos",
+      "preco": 4048.06,
+      "cidade": "Belo Horizonte"
+    },
+    "id": "decision-1779107930391-8g6zpfhul"
+  },
+  {
+    "recordId": "DEMO-1779107933390-g86ayqcub",
+    "decision": "REJECTED",
+    "confidence": 75,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:38:53.391Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 70,
+    "status": "QUARENTENA",
+    "input": {
+      "produto": "Notebook Samsung Book",
+      "categoria": "Eletrônicos",
+      "preco": 0.01,
+      "cidade": "Fortaleza"
+    },
+    "correctedData": {
+      "produto": "Notebook Samsung Book",
+      "categoria": "Eletrônicos",
+      "preco": 0.01,
+      "cidade": "Fortaleza"
+    },
+    "id": "decision-1779107933391-scqc9woju"
+  },
+  {
+    "recordId": "DEMO-1779107936401-fhyo6p3ua",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:38:56.402Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Cesta básica familiar mensal",
+      "preco": 237.64,
+      "cidade": "Recife"
+    },
+    "correctedData": {
+      "produto": "Cesta básica familiar mensal",
+      "categoria": "Alimentos",
+      "preco": 237.64,
+      "cidade": "Recife"
+    },
+    "id": "decision-1779107936402-ji0k4wwo4"
+  },
+  {
+    "recordId": "DEMO-1779107939407-veo9t1z57",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:38:59.407Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Camiseta algodão premium",
+      "categoria": "Vestuário",
+      "preco": 87.32,
+      "cidade": "Porto Alegre"
+    },
+    "correctedData": {
+      "produto": "Camiseta algodão premium",
+      "categoria": "Vestuário",
+      "preco": 87.32,
+      "cidade": "Porto Alegre"
+    },
+    "id": "decision-1779107939407-mc63wcj5q"
+  },
+  {
+    "recordId": "DEMO-1779107942406-52bwhscsd",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:39:02.407Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Notebook Dell Inspiron 15 3520",
+      "categoria": "Eletrônicos",
+      "preco": 3812.74,
+      "cidade": "São Paulo"
+    },
+    "correctedData": {
+      "produto": "Notebook Dell Inspiron 15 3520",
+      "categoria": "Eletrônicos",
+      "preco": 3812.74,
+      "cidade": "São Paulo"
+    },
+    "id": "decision-1779107942407-betfrq2u5"
+  },
+  {
+    "recordId": "DEMO-1779107945421-ol99s2nje",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:39:05.421Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 84,
+    "status": "APROVADO",
+    "input": {
+      "produto": "iPhone 15 128GB",
+      "categoria": "",
+      "preco": 6237.03,
+      "cidade": "RJ"
+    },
+    "correctedData": {
+      "produto": "iPhone 15 128GB",
+      "categoria": "Eletrônicos",
+      "preco": 6237.03,
+      "cidade": "Rio de Janeiro"
+    },
+    "id": "decision-1779107945421-lp4mw1fbd"
+  },
+  {
+    "recordId": "DEMO-1779107948424-4yv8g6tcc",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:39:08.424Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 92,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Smart TV LG 55 polegadas 4K",
+      "categoria": "eletronicos",
+      "preco": 3061.24,
+      "cidade": "sp"
+    },
+    "correctedData": {
+      "produto": "Smart TV LG 55 polegadas 4K",
+      "categoria": "Eletrônicos",
+      "preco": 3061.24,
+      "cidade": "São Paulo"
+    },
+    "id": "decision-1779107948424-u4xiimxm1"
+  },
+  {
+    "recordId": "DEMO-1779107951424-16qz3yl63",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:39:11.424Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Serviço de instalação de ar-condicionado split",
+      "categoria": "Serviços",
+      "preco": 462.37,
+      "cidade": "Curitiba"
+    },
+    "correctedData": {
+      "produto": "Serviço de instalação de ar-condicionado split",
+      "categoria": "Serviços",
+      "preco": 462.37,
+      "cidade": "Curitiba"
+    },
+    "id": "decision-1779107951424-93ar167xr"
+  },
+  {
+    "recordId": "DEMO-1779107954423-uqt284wvq",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:39:14.424Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Geladeira Brastemp Frost Free 375L",
+      "categoria": "Eletrodomésticos",
+      "preco": 4347.66,
+      "cidade": "Belo Horizonte"
+    },
+    "correctedData": {
+      "produto": "Geladeira Brastemp Frost Free 375L",
+      "categoria": "Eletrodomésticos",
+      "preco": 4347.66,
+      "cidade": "Belo Horizonte"
+    },
+    "id": "decision-1779107954424-nsey13ha0"
+  },
+  {
+    "recordId": "DEMO-1779107957439-ebcxzcjyf",
+    "decision": "REJECTED",
+    "confidence": 75,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:39:17.439Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 70,
+    "status": "QUARENTENA",
+    "input": {
+      "produto": "Notebook Samsung Book",
+      "categoria": "Eletrônicos",
+      "preco": 0.01,
+      "cidade": "Fortaleza"
+    },
+    "correctedData": {
+      "produto": "Notebook Samsung Book",
+      "categoria": "Eletrônicos",
+      "preco": 0.01,
+      "cidade": "Fortaleza"
+    },
+    "id": "decision-1779107957439-21njl5kg6"
+  },
+  {
+    "recordId": "DEMO-1779107960453-2v8a22pgs",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:39:20.454Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Cesta básica familiar mensal",
+      "preco": 241,
+      "cidade": "Recife"
+    },
+    "correctedData": {
+      "produto": "Cesta básica familiar mensal",
+      "categoria": "Alimentos",
+      "preco": 241,
+      "cidade": "Recife"
+    },
+    "id": "decision-1779107960454-qcdgkogcs"
+  },
+  {
+    "recordId": "DEMO-1779107963465-6vsxk4312",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:39:23.465Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Camiseta algodão premium",
+      "categoria": "Vestuário",
+      "preco": 92.73,
+      "cidade": "Porto Alegre"
+    },
+    "correctedData": {
+      "produto": "Camiseta algodão premium",
+      "categoria": "Vestuário",
+      "preco": 92.73,
+      "cidade": "Porto Alegre"
+    },
+    "id": "decision-1779107963465-fhgkg4vci"
+  },
+  {
+    "recordId": "DEMO-1779107966474-k37yt5iyg",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:39:26.475Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Notebook Dell Inspiron 15 3520",
+      "categoria": "Eletrônicos",
+      "preco": 3823.27,
+      "cidade": "São Paulo"
+    },
+    "correctedData": {
+      "produto": "Notebook Dell Inspiron 15 3520",
+      "categoria": "Eletrônicos",
+      "preco": 3823.27,
+      "cidade": "São Paulo"
+    },
+    "id": "decision-1779107966475-h2hhzdef7"
+  },
+  {
+    "recordId": "DEMO-1779107969487-y997ez6w2",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:39:29.488Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 84,
+    "status": "APROVADO",
+    "input": {
+      "produto": "iPhone 15 128GB",
+      "categoria": "",
+      "preco": 6242.19,
+      "cidade": "RJ"
+    },
+    "correctedData": {
+      "produto": "iPhone 15 128GB",
+      "categoria": "Eletrônicos",
+      "preco": 6242.19,
+      "cidade": "Rio de Janeiro"
+    },
+    "id": "decision-1779107969488-na2c8i2s5"
+  },
+  {
+    "recordId": "DEMO-1779107972489-2jxsz8m2h",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:39:32.490Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 92,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Smart TV LG 55 polegadas 4K",
+      "categoria": "eletronicos",
+      "preco": 2929.01,
+      "cidade": "sp"
+    },
+    "correctedData": {
+      "produto": "Smart TV LG 55 polegadas 4K",
+      "categoria": "Eletrônicos",
+      "preco": 2929.01,
+      "cidade": "São Paulo"
+    },
+    "id": "decision-1779107972490-cavq9cot0"
+  },
+  {
+    "recordId": "DEMO-1779107975491-n9jj7rcr1",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:39:35.492Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Serviço de instalação de ar-condicionado split",
+      "categoria": "Serviços",
+      "preco": 492.88,
+      "cidade": "Curitiba"
+    },
+    "correctedData": {
+      "produto": "Serviço de instalação de ar-condicionado split",
+      "categoria": "Serviços",
+      "preco": 492.88,
+      "cidade": "Curitiba"
+    },
+    "id": "decision-1779107975492-vzcfjev8v"
+  },
+  {
+    "recordId": "DEMO-1779107978492-hd6dh8jyg",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:39:38.492Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Geladeira Brastemp Frost Free 375L",
+      "categoria": "Eletrodomésticos",
+      "preco": 4111.6,
+      "cidade": "Belo Horizonte"
+    },
+    "correctedData": {
+      "produto": "Geladeira Brastemp Frost Free 375L",
+      "categoria": "Eletrodomésticos",
+      "preco": 4111.6,
+      "cidade": "Belo Horizonte"
+    },
+    "id": "decision-1779107978492-z0ezif5c8"
+  },
+  {
+    "recordId": "DEMO-1779107981508-ezviou6p2",
+    "decision": "REJECTED",
+    "confidence": 75,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:39:41.508Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 70,
+    "status": "QUARENTENA",
+    "input": {
+      "produto": "Notebook Samsung Book",
+      "categoria": "Eletrônicos",
+      "preco": 0.01,
+      "cidade": "Fortaleza"
+    },
+    "correctedData": {
+      "produto": "Notebook Samsung Book",
+      "categoria": "Eletrônicos",
+      "preco": 0.01,
+      "cidade": "Fortaleza"
+    },
+    "id": "decision-1779107981508-n86csvtcr"
+  },
+  {
+    "recordId": "DEMO-1779107984508-kdyii5xpm",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:39:44.508Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Cesta básica familiar mensal",
+      "preco": 253.78,
+      "cidade": "Recife"
+    },
+    "correctedData": {
+      "produto": "Cesta básica familiar mensal",
+      "categoria": "Alimentos",
+      "preco": 253.78,
+      "cidade": "Recife"
+    },
+    "id": "decision-1779107984508-stfdmsw15"
+  },
+  {
+    "recordId": "DEMO-1779107987508-akrqeozpi",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:39:47.508Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Camiseta algodão premium",
+      "categoria": "Vestuário",
+      "preco": 97.63,
+      "cidade": "Porto Alegre"
+    },
+    "correctedData": {
+      "produto": "Camiseta algodão premium",
+      "categoria": "Vestuário",
+      "preco": 97.63,
+      "cidade": "Porto Alegre"
+    },
+    "id": "decision-1779107987508-qi7b7frww"
+  },
+  {
+    "recordId": "DEMO-1779107990508-t8eq25k7v",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:39:50.509Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Notebook Dell Inspiron 15 3520",
+      "categoria": "Eletrônicos",
+      "preco": 3801.08,
+      "cidade": "São Paulo"
+    },
+    "correctedData": {
+      "produto": "Notebook Dell Inspiron 15 3520",
+      "categoria": "Eletrônicos",
+      "preco": 3801.08,
+      "cidade": "São Paulo"
+    },
+    "id": "decision-1779107990509-45kd6gvrt"
+  },
+  {
+    "recordId": "DEMO-1779107993509-7vnauqiz1",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:39:53.509Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 84,
+    "status": "APROVADO",
+    "input": {
+      "produto": "iPhone 15 128GB",
+      "categoria": "",
+      "preco": 6260.56,
+      "cidade": "RJ"
+    },
+    "correctedData": {
+      "produto": "iPhone 15 128GB",
+      "categoria": "Eletrônicos",
+      "preco": 6260.56,
+      "cidade": "Rio de Janeiro"
+    },
+    "id": "decision-1779107993509-4bvfjjf98"
+  },
+  {
+    "recordId": "DEMO-1779107996510-fve89ms3m",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:39:56.511Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 92,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Smart TV LG 55 polegadas 4K",
+      "categoria": "eletronicos",
+      "preco": 3060.95,
+      "cidade": "sp"
+    },
+    "correctedData": {
+      "produto": "Smart TV LG 55 polegadas 4K",
+      "categoria": "Eletrônicos",
+      "preco": 3060.95,
+      "cidade": "São Paulo"
+    },
+    "id": "decision-1779107996511-qhg906mtq"
+  },
+  {
+    "recordId": "DEMO-1779107999525-14cwpirnt",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:39:59.525Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Serviço de instalação de ar-condicionado split",
+      "categoria": "Serviços",
+      "preco": 449.32,
+      "cidade": "Curitiba"
+    },
+    "correctedData": {
+      "produto": "Serviço de instalação de ar-condicionado split",
+      "categoria": "Serviços",
+      "preco": 449.32,
+      "cidade": "Curitiba"
+    },
+    "id": "decision-1779107999525-2x4498z0l"
+  },
+  {
+    "recordId": "DEMO-1779108002525-sjdhhy4do",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:40:02.526Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Geladeira Brastemp Frost Free 375L",
+      "categoria": "Eletrodomésticos",
+      "preco": 4503.91,
+      "cidade": "Belo Horizonte"
+    },
+    "correctedData": {
+      "produto": "Geladeira Brastemp Frost Free 375L",
+      "categoria": "Eletrodomésticos",
+      "preco": 4503.91,
+      "cidade": "Belo Horizonte"
+    },
+    "id": "decision-1779108002526-ccpjqln4v"
+  },
+  {
+    "recordId": "DEMO-1779108005541-sllcohelu",
+    "decision": "REJECTED",
+    "confidence": 75,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:40:05.541Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 70,
+    "status": "QUARENTENA",
+    "input": {
+      "produto": "Notebook Samsung Book",
+      "categoria": "Eletrônicos",
+      "preco": 0.01,
+      "cidade": "Fortaleza"
+    },
+    "correctedData": {
+      "produto": "Notebook Samsung Book",
+      "categoria": "Eletrônicos",
+      "preco": 0.01,
+      "cidade": "Fortaleza"
+    },
+    "id": "decision-1779108005541-9t7q1p5qz"
+  },
+  {
+    "recordId": "DEMO-1779108008541-nesdwcsk9",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:40:08.542Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Cesta básica familiar mensal",
+      "preco": 244.87,
+      "cidade": "Recife"
+    },
+    "correctedData": {
+      "produto": "Cesta básica familiar mensal",
+      "categoria": "Alimentos",
+      "preco": 244.87,
+      "cidade": "Recife"
+    },
+    "id": "decision-1779108008542-34t33asiw"
+  },
+  {
+    "recordId": "DEMO-1779108011556-g3sjj4t6j",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:40:11.556Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Camiseta algodão premium",
+      "categoria": "Vestuário",
+      "preco": 94.18,
+      "cidade": "Porto Alegre"
+    },
+    "correctedData": {
+      "produto": "Camiseta algodão premium",
+      "categoria": "Vestuário",
+      "preco": 94.18,
+      "cidade": "Porto Alegre"
+    },
+    "id": "decision-1779108011556-feed3x2k8"
+  },
+  {
+    "recordId": "DEMO-1779108014557-gzzxwonil",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:40:14.558Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Notebook Dell Inspiron 15 3520",
+      "categoria": "Eletrônicos",
+      "preco": 3959.98,
+      "cidade": "São Paulo"
+    },
+    "correctedData": {
+      "produto": "Notebook Dell Inspiron 15 3520",
+      "categoria": "Eletrônicos",
+      "preco": 3959.98,
+      "cidade": "São Paulo"
+    },
+    "id": "decision-1779108014558-85qd99iwb"
+  },
+  {
+    "recordId": "DEMO-1779108017557-cxe2ehla3",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:40:17.558Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 84,
+    "status": "APROVADO",
+    "input": {
+      "produto": "iPhone 15 128GB",
+      "categoria": "",
+      "preco": 6267.42,
+      "cidade": "RJ"
+    },
+    "correctedData": {
+      "produto": "iPhone 15 128GB",
+      "categoria": "Eletrônicos",
+      "preco": 6267.42,
+      "cidade": "Rio de Janeiro"
+    },
+    "id": "decision-1779108017558-pav36fr6r"
+  },
+  {
+    "recordId": "DEMO-1779108020558-x8f5fxm4w",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:40:20.558Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 92,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Smart TV LG 55 polegadas 4K",
+      "categoria": "eletronicos",
+      "preco": 2950.15,
+      "cidade": "sp"
+    },
+    "correctedData": {
+      "produto": "Smart TV LG 55 polegadas 4K",
+      "categoria": "Eletrônicos",
+      "preco": 2950.15,
+      "cidade": "São Paulo"
+    },
+    "id": "decision-1779108020558-xd9ylk3ty"
+  },
+  {
+    "recordId": "DEMO-1779108023558-e0czsjagq",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:40:23.558Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Serviço de instalação de ar-condicionado split",
+      "categoria": "Serviços",
+      "preco": 516.62,
+      "cidade": "Curitiba"
+    },
+    "correctedData": {
+      "produto": "Serviço de instalação de ar-condicionado split",
+      "categoria": "Serviços",
+      "preco": 516.62,
+      "cidade": "Curitiba"
+    },
+    "id": "decision-1779108023558-n8dgecjh9"
+  },
+  {
+    "recordId": "DEMO-1779108026574-k339xcy9b",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:40:26.575Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Geladeira Brastemp Frost Free 375L",
+      "categoria": "Eletrodomésticos",
+      "preco": 4387.92,
+      "cidade": "Belo Horizonte"
+    },
+    "correctedData": {
+      "produto": "Geladeira Brastemp Frost Free 375L",
+      "categoria": "Eletrodomésticos",
+      "preco": 4387.92,
+      "cidade": "Belo Horizonte"
+    },
+    "id": "decision-1779108026575-pfrbwpcl8"
+  },
+  {
+    "recordId": "DEMO-1779108029574-0l0x5mii5",
+    "decision": "REJECTED",
+    "confidence": 75,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:40:29.575Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 70,
+    "status": "QUARENTENA",
+    "input": {
+      "produto": "Notebook Samsung Book",
+      "categoria": "Eletrônicos",
+      "preco": 0.01,
+      "cidade": "Fortaleza"
+    },
+    "correctedData": {
+      "produto": "Notebook Samsung Book",
+      "categoria": "Eletrônicos",
+      "preco": 0.01,
+      "cidade": "Fortaleza"
+    },
+    "id": "decision-1779108029575-piynfr7kn"
+  },
+  {
+    "recordId": "DEMO-1779108032575-r7bxqdvzj",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:40:32.575Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Cesta básica familiar mensal",
+      "preco": 239.96,
+      "cidade": "Recife"
+    },
+    "correctedData": {
+      "produto": "Cesta básica familiar mensal",
+      "categoria": "Alimentos",
+      "preco": 239.96,
+      "cidade": "Recife"
+    },
+    "id": "decision-1779108032575-n61wux1x9"
+  },
+  {
+    "recordId": "DEMO-1779108035585-mmpvpyq43",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:40:35.585Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Camiseta algodão premium",
+      "categoria": "Vestuário",
+      "preco": 90.41,
+      "cidade": "Porto Alegre"
+    },
+    "correctedData": {
+      "produto": "Camiseta algodão premium",
+      "categoria": "Vestuário",
+      "preco": 90.41,
+      "cidade": "Porto Alegre"
+    },
+    "id": "decision-1779108035585-ygfjjeear"
+  },
+  {
+    "recordId": "DEMO-1779108038589-34h3vx5up",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:40:38.590Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Notebook Dell Inspiron 15 3520",
+      "categoria": "Eletrônicos",
+      "preco": 3931.39,
+      "cidade": "São Paulo"
+    },
+    "correctedData": {
+      "produto": "Notebook Dell Inspiron 15 3520",
+      "categoria": "Eletrônicos",
+      "preco": 3931.39,
+      "cidade": "São Paulo"
+    },
+    "id": "decision-1779108038590-cj0x9f3fn"
+  },
+  {
+    "recordId": "DEMO-1779108041600-d85vy7hlb",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:40:41.601Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 84,
+    "status": "APROVADO",
+    "input": {
+      "produto": "iPhone 15 128GB",
+      "categoria": "",
+      "preco": 6299.73,
+      "cidade": "RJ"
+    },
+    "correctedData": {
+      "produto": "iPhone 15 128GB",
+      "categoria": "Eletrônicos",
+      "preco": 6299.73,
+      "cidade": "Rio de Janeiro"
+    },
+    "id": "decision-1779108041601-t54trgko4"
+  },
+  {
+    "recordId": "DEMO-1779108044608-emyjavup0",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:40:44.609Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 92,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Smart TV LG 55 polegadas 4K",
+      "categoria": "eletronicos",
+      "preco": 2951.07,
+      "cidade": "sp"
+    },
+    "correctedData": {
+      "produto": "Smart TV LG 55 polegadas 4K",
+      "categoria": "Eletrônicos",
+      "preco": 2951.07,
+      "cidade": "São Paulo"
+    },
+    "id": "decision-1779108044609-bgnxp1ij1"
+  },
+  {
+    "recordId": "DEMO-1779108047608-2pgvvu26e",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:40:47.609Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Serviço de instalação de ar-condicionado split",
+      "categoria": "Serviços",
+      "preco": 469.62,
+      "cidade": "Curitiba"
+    },
+    "correctedData": {
+      "produto": "Serviço de instalação de ar-condicionado split",
+      "categoria": "Serviços",
+      "preco": 469.62,
+      "cidade": "Curitiba"
+    },
+    "id": "decision-1779108047609-rl4cs44co"
+  },
+  {
+    "recordId": "DEMO-1779108050608-40l2g5pfp",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:40:50.609Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Geladeira Brastemp Frost Free 375L",
+      "categoria": "Eletrodomésticos",
+      "preco": 4257.43,
+      "cidade": "Belo Horizonte"
+    },
+    "correctedData": {
+      "produto": "Geladeira Brastemp Frost Free 375L",
+      "categoria": "Eletrodomésticos",
+      "preco": 4257.43,
+      "cidade": "Belo Horizonte"
+    },
+    "id": "decision-1779108050609-373tqad72"
+  },
+  {
+    "recordId": "DEMO-1779108053624-6nbnho29l",
+    "decision": "REJECTED",
+    "confidence": 75,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:40:53.624Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 70,
+    "status": "QUARENTENA",
+    "input": {
+      "produto": "Notebook Samsung Book",
+      "categoria": "Eletrônicos",
+      "preco": 0.01,
+      "cidade": "Fortaleza"
+    },
+    "correctedData": {
+      "produto": "Notebook Samsung Book",
+      "categoria": "Eletrônicos",
+      "preco": 0.01,
+      "cidade": "Fortaleza"
+    },
+    "id": "decision-1779108053624-qo6i5bfdk"
+  },
+  {
+    "recordId": "DEMO-1779108056625-leou9r84x",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:40:56.625Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Cesta básica familiar mensal",
+      "preco": 238.88,
+      "cidade": "Recife"
+    },
+    "correctedData": {
+      "produto": "Cesta básica familiar mensal",
+      "categoria": "Alimentos",
+      "preco": 238.88,
+      "cidade": "Recife"
+    },
+    "id": "decision-1779108056625-a10zoqa05"
+  },
+  {
+    "recordId": "DEMO-1779108059641-29kdp2t2j",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:40:59.641Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Camiseta algodão premium",
+      "categoria": "Vestuário",
+      "preco": 87.75,
+      "cidade": "Porto Alegre"
+    },
+    "correctedData": {
+      "produto": "Camiseta algodão premium",
+      "categoria": "Vestuário",
+      "preco": 87.75,
+      "cidade": "Porto Alegre"
+    },
+    "id": "decision-1779108059641-mwj27bs9g"
+  },
+  {
+    "recordId": "DEMO-1779108062641-6aknq4xpt",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:41:02.641Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Notebook Dell Inspiron 15 3520",
+      "categoria": "Eletrônicos",
+      "preco": 3868.39,
+      "cidade": "São Paulo"
+    },
+    "correctedData": {
+      "produto": "Notebook Dell Inspiron 15 3520",
+      "categoria": "Eletrônicos",
+      "preco": 3868.39,
+      "cidade": "São Paulo"
+    },
+    "id": "decision-1779108062641-dih9456p9"
+  },
+  {
+    "recordId": "DEMO-1779108065641-089oc454l",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:41:05.642Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 84,
+    "status": "APROVADO",
+    "input": {
+      "produto": "iPhone 15 128GB",
+      "categoria": "",
+      "preco": 6253.95,
+      "cidade": "RJ"
+    },
+    "correctedData": {
+      "produto": "iPhone 15 128GB",
+      "categoria": "Eletrônicos",
+      "preco": 6253.95,
+      "cidade": "Rio de Janeiro"
+    },
+    "id": "decision-1779108065642-zyod008ha"
+  },
+  {
+    "recordId": "DEMO-1779108068658-a5s28zre5",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:41:08.659Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 92,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Smart TV LG 55 polegadas 4K",
+      "categoria": "eletronicos",
+      "preco": 3023.22,
+      "cidade": "sp"
+    },
+    "correctedData": {
+      "produto": "Smart TV LG 55 polegadas 4K",
+      "categoria": "Eletrônicos",
+      "preco": 3023.22,
+      "cidade": "São Paulo"
+    },
+    "id": "decision-1779108068659-ygumm5hpu"
+  },
+  {
+    "recordId": "DEMO-1779108071658-wj3jqj8c1",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:41:11.659Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Serviço de instalação de ar-condicionado split",
+      "categoria": "Serviços",
+      "preco": 481.64,
+      "cidade": "Curitiba"
+    },
+    "correctedData": {
+      "produto": "Serviço de instalação de ar-condicionado split",
+      "categoria": "Serviços",
+      "preco": 481.64,
+      "cidade": "Curitiba"
+    },
+    "id": "decision-1779108071659-qfc864q9u"
+  },
+  {
+    "recordId": "DEMO-1779108074659-akyzrpl54",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:41:14.659Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Geladeira Brastemp Frost Free 375L",
+      "categoria": "Eletrodomésticos",
+      "preco": 4048.86,
+      "cidade": "Belo Horizonte"
+    },
+    "correctedData": {
+      "produto": "Geladeira Brastemp Frost Free 375L",
+      "categoria": "Eletrodomésticos",
+      "preco": 4048.86,
+      "cidade": "Belo Horizonte"
+    },
+    "id": "decision-1779108074659-qn30wuli9"
+  },
+  {
+    "recordId": "DEMO-1779108077675-g7ili4qsd",
+    "decision": "REJECTED",
+    "confidence": 75,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:41:17.675Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 70,
+    "status": "QUARENTENA",
+    "input": {
+      "produto": "Notebook Samsung Book",
+      "categoria": "Eletrônicos",
+      "preco": 0.01,
+      "cidade": "Fortaleza"
+    },
+    "correctedData": {
+      "produto": "Notebook Samsung Book",
+      "categoria": "Eletrônicos",
+      "preco": 0.01,
+      "cidade": "Fortaleza"
+    },
+    "id": "decision-1779108077675-60rftb6ts"
+  },
+  {
+    "recordId": "DEMO-1779108080690-a9xkbsg62",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:41:20.691Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Cesta básica familiar mensal",
+      "preco": 241.37,
+      "cidade": "Recife"
+    },
+    "correctedData": {
+      "produto": "Cesta básica familiar mensal",
+      "categoria": "Alimentos",
+      "preco": 241.37,
+      "cidade": "Recife"
+    },
+    "id": "decision-1779108080691-n0022cgl7"
+  },
+  {
+    "recordId": "DEMO-1779108083691-jlnx38kao",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:41:23.691Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Camiseta algodão premium",
+      "categoria": "Vestuário",
+      "preco": 81.26,
+      "cidade": "Porto Alegre"
+    },
+    "correctedData": {
+      "produto": "Camiseta algodão premium",
+      "categoria": "Vestuário",
+      "preco": 81.26,
+      "cidade": "Porto Alegre"
+    },
+    "id": "decision-1779108083691-7i34jf943"
+  },
+  {
+    "recordId": "DEMO-1779108086691-raklfza78",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:41:26.692Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Notebook Dell Inspiron 15 3520",
+      "categoria": "Eletrônicos",
+      "preco": 3790.15,
+      "cidade": "São Paulo"
+    },
+    "correctedData": {
+      "produto": "Notebook Dell Inspiron 15 3520",
+      "categoria": "Eletrônicos",
+      "preco": 3790.15,
+      "cidade": "São Paulo"
+    },
+    "id": "decision-1779108086692-htuaxt58k"
+  },
+  {
+    "recordId": "DEMO-1779108089691-1s071yec2",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:41:29.692Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 84,
+    "status": "APROVADO",
+    "input": {
+      "produto": "iPhone 15 128GB",
+      "categoria": "",
+      "preco": 6287.03,
+      "cidade": "RJ"
+    },
+    "correctedData": {
+      "produto": "iPhone 15 128GB",
+      "categoria": "Eletrônicos",
+      "preco": 6287.03,
+      "cidade": "Rio de Janeiro"
+    },
+    "id": "decision-1779108089692-ccbfawtus"
+  },
+  {
+    "recordId": "DEMO-1779108092691-2w7fyk09o",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:41:32.691Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 92,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Smart TV LG 55 polegadas 4K",
+      "categoria": "eletronicos",
+      "preco": 3100.89,
+      "cidade": "sp"
+    },
+    "correctedData": {
+      "produto": "Smart TV LG 55 polegadas 4K",
+      "categoria": "Eletrônicos",
+      "preco": 3100.89,
+      "cidade": "São Paulo"
+    },
+    "id": "decision-1779108092691-vjfrx62fv"
+  },
+  {
+    "recordId": "DEMO-1779108095692-tfuv73312",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:41:35.692Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Serviço de instalação de ar-condicionado split",
+      "categoria": "Serviços",
+      "preco": 486.37,
+      "cidade": "Curitiba"
+    },
+    "correctedData": {
+      "produto": "Serviço de instalação de ar-condicionado split",
+      "categoria": "Serviços",
+      "preco": 486.37,
+      "cidade": "Curitiba"
+    },
+    "id": "decision-1779108095692-9r3x863k2"
+  },
+  {
+    "recordId": "DEMO-1779108098708-lkyay8sgz",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:41:38.709Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Geladeira Brastemp Frost Free 375L",
+      "categoria": "Eletrodomésticos",
+      "preco": 4520.78,
+      "cidade": "Belo Horizonte"
+    },
+    "correctedData": {
+      "produto": "Geladeira Brastemp Frost Free 375L",
+      "categoria": "Eletrodomésticos",
+      "preco": 4520.78,
+      "cidade": "Belo Horizonte"
+    },
+    "id": "decision-1779108098709-6mssbupav"
+  },
+  {
+    "recordId": "DEMO-1779108101716-czgs14r02",
+    "decision": "REJECTED",
+    "confidence": 75,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:41:41.717Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 70,
+    "status": "QUARENTENA",
+    "input": {
+      "produto": "Notebook Samsung Book",
+      "categoria": "Eletrônicos",
+      "preco": 0.01,
+      "cidade": "Fortaleza"
+    },
+    "correctedData": {
+      "produto": "Notebook Samsung Book",
+      "categoria": "Eletrônicos",
+      "preco": 0.01,
+      "cidade": "Fortaleza"
+    },
+    "id": "decision-1779108101717-r6pfjcaqx"
+  },
+  {
+    "recordId": "DEMO-1779108104725-nwgb0spkl",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:41:44.725Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Cesta básica familiar mensal",
+      "preco": 251.86,
+      "cidade": "Recife"
+    },
+    "correctedData": {
+      "produto": "Cesta básica familiar mensal",
+      "categoria": "Alimentos",
+      "preco": 251.86,
+      "cidade": "Recife"
+    },
+    "id": "decision-1779108104725-aiw3j2lap"
+  },
+  {
+    "recordId": "DEMO-1779108107726-41wk82tg5",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:41:47.726Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Camiseta algodão premium",
+      "categoria": "Vestuário",
+      "preco": 90.32,
+      "cidade": "Porto Alegre"
+    },
+    "correctedData": {
+      "produto": "Camiseta algodão premium",
+      "categoria": "Vestuário",
+      "preco": 90.32,
+      "cidade": "Porto Alegre"
+    },
+    "id": "decision-1779108107726-aa44670li"
+  },
+  {
+    "recordId": "DEMO-1779108110742-viike26yo",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:41:50.742Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Notebook Dell Inspiron 15 3520",
+      "categoria": "Eletrônicos",
+      "preco": 3988.92,
+      "cidade": "São Paulo"
+    },
+    "correctedData": {
+      "produto": "Notebook Dell Inspiron 15 3520",
+      "categoria": "Eletrônicos",
+      "preco": 3988.92,
+      "cidade": "São Paulo"
+    },
+    "id": "decision-1779108110742-t3pa0khfe"
+  },
+  {
+    "recordId": "DEMO-1779108113741-duyrevio9",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:41:53.742Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 84,
+    "status": "APROVADO",
+    "input": {
+      "produto": "iPhone 15 128GB",
+      "categoria": "",
+      "preco": 6335.58,
+      "cidade": "RJ"
+    },
+    "correctedData": {
+      "produto": "iPhone 15 128GB",
+      "categoria": "Eletrônicos",
+      "preco": 6335.58,
+      "cidade": "Rio de Janeiro"
+    },
+    "id": "decision-1779108113742-i4x11kpvj"
+  },
+  {
+    "recordId": "DEMO-1779108116756-cu9kem104",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:41:56.757Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 92,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Smart TV LG 55 polegadas 4K",
+      "categoria": "eletronicos",
+      "preco": 3021.53,
+      "cidade": "sp"
+    },
+    "correctedData": {
+      "produto": "Smart TV LG 55 polegadas 4K",
+      "categoria": "Eletrônicos",
+      "preco": 3021.53,
+      "cidade": "São Paulo"
+    },
+    "id": "decision-1779108116757-ez3djgzy9"
+  },
+  {
+    "recordId": "DEMO-1779108119757-o5j131u2v",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:41:59.757Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Serviço de instalação de ar-condicionado split",
+      "categoria": "Serviços",
+      "preco": 470.59,
+      "cidade": "Curitiba"
+    },
+    "correctedData": {
+      "produto": "Serviço de instalação de ar-condicionado split",
+      "categoria": "Serviços",
+      "preco": 470.59,
+      "cidade": "Curitiba"
+    },
+    "id": "decision-1779108119757-rjlnnq3ef"
+  },
+  {
+    "recordId": "DEMO-1779108122757-70zh3z59q",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:42:02.758Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Geladeira Brastemp Frost Free 375L",
+      "categoria": "Eletrodomésticos",
+      "preco": 4216.54,
+      "cidade": "Belo Horizonte"
+    },
+    "correctedData": {
+      "produto": "Geladeira Brastemp Frost Free 375L",
+      "categoria": "Eletrodomésticos",
+      "preco": 4216.54,
+      "cidade": "Belo Horizonte"
+    },
+    "id": "decision-1779108122758-0o9iqt6iu"
+  },
+  {
+    "recordId": "DEMO-1779108125757-6p719c8hw",
+    "decision": "REJECTED",
+    "confidence": 75,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:42:05.758Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 70,
+    "status": "QUARENTENA",
+    "input": {
+      "produto": "Notebook Samsung Book",
+      "categoria": "Eletrônicos",
+      "preco": 0.01,
+      "cidade": "Fortaleza"
+    },
+    "correctedData": {
+      "produto": "Notebook Samsung Book",
+      "categoria": "Eletrônicos",
+      "preco": 0.01,
+      "cidade": "Fortaleza"
+    },
+    "id": "decision-1779108125758-04s616zk2"
+  },
+  {
+    "recordId": "DEMO-1779108128758-fpq15yxgb",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:42:08.758Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Cesta básica familiar mensal",
+      "preco": 256.34,
+      "cidade": "Recife"
+    },
+    "correctedData": {
+      "produto": "Cesta básica familiar mensal",
+      "categoria": "Alimentos",
+      "preco": 256.34,
+      "cidade": "Recife"
+    },
+    "id": "decision-1779108128758-813rpl760"
+  },
+  {
+    "recordId": "DEMO-1779108131759-mlx9szcd2",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:42:11.759Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Camiseta algodão premium",
+      "categoria": "Vestuário",
+      "preco": 98.08,
+      "cidade": "Porto Alegre"
+    },
+    "correctedData": {
+      "produto": "Camiseta algodão premium",
+      "categoria": "Vestuário",
+      "preco": 98.08,
+      "cidade": "Porto Alegre"
+    },
+    "id": "decision-1779108131759-bc0r7wov2"
+  },
+  {
+    "recordId": "DEMO-1779108134761-i0a6n3pfy",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:42:14.761Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Notebook Dell Inspiron 15 3520",
+      "categoria": "Eletrônicos",
+      "preco": 3784,
+      "cidade": "São Paulo"
+    },
+    "correctedData": {
+      "produto": "Notebook Dell Inspiron 15 3520",
+      "categoria": "Eletrônicos",
+      "preco": 3784,
+      "cidade": "São Paulo"
+    },
+    "id": "decision-1779108134761-6ao1golei"
+  },
+  {
+    "recordId": "DEMO-1779108137774-a6ltcwlt7",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:42:17.775Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 84,
+    "status": "APROVADO",
+    "input": {
+      "produto": "iPhone 15 128GB",
+      "categoria": "",
+      "preco": 6306.99,
+      "cidade": "RJ"
+    },
+    "correctedData": {
+      "produto": "iPhone 15 128GB",
+      "categoria": "Eletrônicos",
+      "preco": 6306.99,
+      "cidade": "Rio de Janeiro"
+    },
+    "id": "decision-1779108137775-q3fbhabu6"
+  },
+  {
+    "recordId": "DEMO-1779108140775-8s371qnes",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:42:20.775Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 92,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Smart TV LG 55 polegadas 4K",
+      "categoria": "eletronicos",
+      "preco": 3055.75,
+      "cidade": "sp"
+    },
+    "correctedData": {
+      "produto": "Smart TV LG 55 polegadas 4K",
+      "categoria": "Eletrônicos",
+      "preco": 3055.75,
+      "cidade": "São Paulo"
+    },
+    "id": "decision-1779108140775-6xgrsi2w9"
+  },
+  {
+    "recordId": "DEMO-1779108143775-mqy13ykqb",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:42:23.775Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Serviço de instalação de ar-condicionado split",
+      "categoria": "Serviços",
+      "preco": 483.75,
+      "cidade": "Curitiba"
+    },
+    "correctedData": {
+      "produto": "Serviço de instalação de ar-condicionado split",
+      "categoria": "Serviços",
+      "preco": 483.75,
+      "cidade": "Curitiba"
+    },
+    "id": "decision-1779108143775-amrpzi52c"
+  },
+  {
+    "recordId": "DEMO-1779108146792-m34fxakps",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:42:26.792Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Geladeira Brastemp Frost Free 375L",
+      "categoria": "Eletrodomésticos",
+      "preco": 4409.97,
+      "cidade": "Belo Horizonte"
+    },
+    "correctedData": {
+      "produto": "Geladeira Brastemp Frost Free 375L",
+      "categoria": "Eletrodomésticos",
+      "preco": 4409.97,
+      "cidade": "Belo Horizonte"
+    },
+    "id": "decision-1779108146792-dxszrd7gx"
+  },
+  {
+    "recordId": "DEMO-1779108149791-trppcznx7",
+    "decision": "REJECTED",
+    "confidence": 75,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:42:29.791Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 70,
+    "status": "QUARENTENA",
+    "input": {
+      "produto": "Notebook Samsung Book",
+      "categoria": "Eletrônicos",
+      "preco": 0.01,
+      "cidade": "Fortaleza"
+    },
+    "correctedData": {
+      "produto": "Notebook Samsung Book",
+      "categoria": "Eletrônicos",
+      "preco": 0.01,
+      "cidade": "Fortaleza"
+    },
+    "id": "decision-1779108149791-5mf55jc55"
+  },
+  {
+    "recordId": "DEMO-1779108152791-o33boh1of",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:42:32.792Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Cesta básica familiar mensal",
+      "preco": 259.61,
+      "cidade": "Recife"
+    },
+    "correctedData": {
+      "produto": "Cesta básica familiar mensal",
+      "categoria": "Alimentos",
+      "preco": 259.61,
+      "cidade": "Recife"
+    },
+    "id": "decision-1779108152792-yxc40sqcy"
+  },
+  {
+    "recordId": "DEMO-1779108155791-a01cqz16u",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:42:35.791Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Camiseta algodão premium",
+      "categoria": "Vestuário",
+      "preco": 94.1,
+      "cidade": "Porto Alegre"
+    },
+    "correctedData": {
+      "produto": "Camiseta algodão premium",
+      "categoria": "Vestuário",
+      "preco": 94.1,
+      "cidade": "Porto Alegre"
+    },
+    "id": "decision-1779108155791-0kyru9x70"
+  },
+  {
+    "recordId": "DEMO-1779108158792-qfgql468",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:42:38.792Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Notebook Dell Inspiron 15 3520",
+      "categoria": "Eletrônicos",
+      "preco": 4011.52,
+      "cidade": "São Paulo"
+    },
+    "correctedData": {
+      "produto": "Notebook Dell Inspiron 15 3520",
+      "categoria": "Eletrônicos",
+      "preco": 4011.52,
+      "cidade": "São Paulo"
+    },
+    "id": "decision-1779108158792-1s027nuj3"
+  },
+  {
+    "recordId": "DEMO-1779108161808-i71jsd3zy",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:42:41.808Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 84,
+    "status": "APROVADO",
+    "input": {
+      "produto": "iPhone 15 128GB",
+      "categoria": "",
+      "preco": 6344.72,
+      "cidade": "RJ"
+    },
+    "correctedData": {
+      "produto": "iPhone 15 128GB",
+      "categoria": "Eletrônicos",
+      "preco": 6344.72,
+      "cidade": "Rio de Janeiro"
+    },
+    "id": "decision-1779108161808-nttw7x7gm"
+  },
+  {
+    "recordId": "DEMO-1779108164808-odmtsnbrx",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:42:44.809Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 92,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Smart TV LG 55 polegadas 4K",
+      "categoria": "eletronicos",
+      "preco": 3048.94,
+      "cidade": "sp"
+    },
+    "correctedData": {
+      "produto": "Smart TV LG 55 polegadas 4K",
+      "categoria": "Eletrônicos",
+      "preco": 3048.94,
+      "cidade": "São Paulo"
+    },
+    "id": "decision-1779108164809-2ntyhlysl"
+  },
+  {
+    "recordId": "DEMO-1779108167809-sfi9kpp4l",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:42:47.809Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Serviço de instalação de ar-condicionado split",
+      "categoria": "Serviços",
+      "preco": 510.81,
+      "cidade": "Curitiba"
+    },
+    "correctedData": {
+      "produto": "Serviço de instalação de ar-condicionado split",
+      "categoria": "Serviços",
+      "preco": 510.81,
+      "cidade": "Curitiba"
+    },
+    "id": "decision-1779108167809-9mcp5lord"
+  },
+  {
+    "recordId": "DEMO-1779108170821-8hvkmsjqc",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:42:50.821Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Geladeira Brastemp Frost Free 375L",
+      "categoria": "Eletrodomésticos",
+      "preco": 4235.18,
+      "cidade": "Belo Horizonte"
+    },
+    "correctedData": {
+      "produto": "Geladeira Brastemp Frost Free 375L",
+      "categoria": "Eletrodomésticos",
+      "preco": 4235.18,
+      "cidade": "Belo Horizonte"
+    },
+    "id": "decision-1779108170821-k7s8zm033"
+  },
+  {
+    "recordId": "DEMO-1779108173825-59s9dez7i",
+    "decision": "REJECTED",
+    "confidence": 75,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:42:53.826Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 70,
+    "status": "QUARENTENA",
+    "input": {
+      "produto": "Notebook Samsung Book",
+      "categoria": "Eletrônicos",
+      "preco": 0.01,
+      "cidade": "Fortaleza"
+    },
+    "correctedData": {
+      "produto": "Notebook Samsung Book",
+      "categoria": "Eletrônicos",
+      "preco": 0.01,
+      "cidade": "Fortaleza"
+    },
+    "id": "decision-1779108173826-49rygntio"
+  },
+  {
+    "recordId": "DEMO-1779108176840-ya4lpfzt6",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:42:56.840Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Cesta básica familiar mensal",
+      "preco": 253.23,
+      "cidade": "Recife"
+    },
+    "correctedData": {
+      "produto": "Cesta básica familiar mensal",
+      "categoria": "Alimentos",
+      "preco": 253.23,
+      "cidade": "Recife"
+    },
+    "id": "decision-1779108176840-hd6vaj1wr"
+  },
+  {
+    "recordId": "DEMO-1779108179842-e1d9no14d",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:42:59.842Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Camiseta algodão premium",
+      "categoria": "Vestuário",
+      "preco": 91.01,
+      "cidade": "Porto Alegre"
+    },
+    "correctedData": {
+      "produto": "Camiseta algodão premium",
+      "categoria": "Vestuário",
+      "preco": 91.01,
+      "cidade": "Porto Alegre"
+    },
+    "id": "decision-1779108179842-565rvf5fe"
+  },
+  {
+    "recordId": "DEMO-1779108182842-d2b195d4b",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:43:02.843Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Notebook Dell Inspiron 15 3520",
+      "categoria": "Eletrônicos",
+      "preco": 3858.68,
+      "cidade": "São Paulo"
+    },
+    "correctedData": {
+      "produto": "Notebook Dell Inspiron 15 3520",
+      "categoria": "Eletrônicos",
+      "preco": 3858.68,
+      "cidade": "São Paulo"
+    },
+    "id": "decision-1779108182843-dgenxnrnd"
+  },
+  {
+    "recordId": "DEMO-1779108185844-jtk6j5xt9",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:43:05.845Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 84,
+    "status": "APROVADO",
+    "input": {
+      "produto": "iPhone 15 128GB",
+      "categoria": "",
+      "preco": 6415.43,
+      "cidade": "RJ"
+    },
+    "correctedData": {
+      "produto": "iPhone 15 128GB",
+      "categoria": "Eletrônicos",
+      "preco": 6415.43,
+      "cidade": "Rio de Janeiro"
+    },
+    "id": "decision-1779108185845-nslfvigri"
+  },
+  {
+    "recordId": "DEMO-1779108188855-dd6gycz12",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:43:08.855Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 92,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Smart TV LG 55 polegadas 4K",
+      "categoria": "eletronicos",
+      "preco": 3086.27,
+      "cidade": "sp"
+    },
+    "correctedData": {
+      "produto": "Smart TV LG 55 polegadas 4K",
+      "categoria": "Eletrônicos",
+      "preco": 3086.27,
+      "cidade": "São Paulo"
+    },
+    "id": "decision-1779108188855-tvqu8oqrn"
+  },
+  {
+    "recordId": "DEMO-1779108191858-m0250x2yw",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:43:11.859Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Serviço de instalação de ar-condicionado split",
+      "categoria": "Serviços",
+      "preco": 470.14,
+      "cidade": "Curitiba"
+    },
+    "correctedData": {
+      "produto": "Serviço de instalação de ar-condicionado split",
+      "categoria": "Serviços",
+      "preco": 470.14,
+      "cidade": "Curitiba"
+    },
+    "id": "decision-1779108191859-48bo1283l"
+  },
+  {
+    "recordId": "DEMO-1779108194872-l2n2hr1dg",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:43:14.873Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Geladeira Brastemp Frost Free 375L",
+      "categoria": "Eletrodomésticos",
+      "preco": 4502.97,
+      "cidade": "Belo Horizonte"
+    },
+    "correctedData": {
+      "produto": "Geladeira Brastemp Frost Free 375L",
+      "categoria": "Eletrodomésticos",
+      "preco": 4502.97,
+      "cidade": "Belo Horizonte"
+    },
+    "id": "decision-1779108194873-tj17e454o"
+  },
+  {
+    "recordId": "DEMO-1779108197874-uly8xszw5",
+    "decision": "REJECTED",
+    "confidence": 75,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:43:17.875Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 70,
+    "status": "QUARENTENA",
+    "input": {
+      "produto": "Notebook Samsung Book",
+      "categoria": "Eletrônicos",
+      "preco": 0.01,
+      "cidade": "Fortaleza"
+    },
+    "correctedData": {
+      "produto": "Notebook Samsung Book",
+      "categoria": "Eletrônicos",
+      "preco": 0.01,
+      "cidade": "Fortaleza"
+    },
+    "id": "decision-1779108197875-bh1pk2gx0"
+  },
+  {
+    "recordId": "DEMO-1779108200880-kwt6qvpq5",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:43:20.880Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Cesta básica familiar mensal",
+      "preco": 255.82,
+      "cidade": "Recife"
+    },
+    "correctedData": {
+      "produto": "Cesta básica familiar mensal",
+      "categoria": "Alimentos",
+      "preco": 255.82,
+      "cidade": "Recife"
+    },
+    "id": "decision-1779108200880-47mtw1jbd"
+  },
+  {
+    "recordId": "DEMO-1779108203890-joe3icb3d",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:43:23.891Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Camiseta algodão premium",
+      "categoria": "Vestuário",
+      "preco": 93.17,
+      "cidade": "Porto Alegre"
+    },
+    "correctedData": {
+      "produto": "Camiseta algodão premium",
+      "categoria": "Vestuário",
+      "preco": 93.17,
+      "cidade": "Porto Alegre"
+    },
+    "id": "decision-1779108203891-u8rwhdpkw"
+  },
+  {
+    "recordId": "DEMO-1779108206891-gbte8lf1j",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:43:26.892Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Notebook Dell Inspiron 15 3520",
+      "categoria": "Eletrônicos",
+      "preco": 3874.58,
+      "cidade": "São Paulo"
+    },
+    "correctedData": {
+      "produto": "Notebook Dell Inspiron 15 3520",
+      "categoria": "Eletrônicos",
+      "preco": 3874.58,
+      "cidade": "São Paulo"
+    },
+    "id": "decision-1779108206892-kwf34xkso"
+  },
+  {
+    "recordId": "DEMO-1779108209892-2qgeainvu",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:43:29.892Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 84,
+    "status": "APROVADO",
+    "input": {
+      "produto": "iPhone 15 128GB",
+      "categoria": "",
+      "preco": 6266.44,
+      "cidade": "RJ"
+    },
+    "correctedData": {
+      "produto": "iPhone 15 128GB",
+      "categoria": "Eletrônicos",
+      "preco": 6266.44,
+      "cidade": "Rio de Janeiro"
+    },
+    "id": "decision-1779108209892-nwt08to3a"
+  },
+  {
+    "recordId": "DEMO-1779108212902-tge8n0zrf",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:43:32.903Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 92,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Smart TV LG 55 polegadas 4K",
+      "categoria": "eletronicos",
+      "preco": 3024.87,
+      "cidade": "sp"
+    },
+    "correctedData": {
+      "produto": "Smart TV LG 55 polegadas 4K",
+      "categoria": "Eletrônicos",
+      "preco": 3024.87,
+      "cidade": "São Paulo"
+    },
+    "id": "decision-1779108212903-icmrtlfef"
+  },
+  {
+    "recordId": "DEMO-1779108215908-kveonxo0i",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:43:35.909Z",
+    "isAuto": true,
+    "processingTimeMs": 1,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Serviço de instalação de ar-condicionado split",
+      "categoria": "Serviços",
+      "preco": 481.77,
+      "cidade": "Curitiba"
+    },
+    "correctedData": {
+      "produto": "Serviço de instalação de ar-condicionado split",
+      "categoria": "Serviços",
+      "preco": 481.77,
+      "cidade": "Curitiba"
+    },
+    "id": "decision-1779108215909-1ll0lcaqo"
+  },
+  {
+    "recordId": "DEMO-1779108218924-d2mahcciv",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:43:38.925Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Geladeira Brastemp Frost Free 375L",
+      "categoria": "Eletrodomésticos",
+      "preco": 4154.25,
+      "cidade": "Belo Horizonte"
+    },
+    "correctedData": {
+      "produto": "Geladeira Brastemp Frost Free 375L",
+      "categoria": "Eletrodomésticos",
+      "preco": 4154.25,
+      "cidade": "Belo Horizonte"
+    },
+    "id": "decision-1779108218925-yck2mh3y6"
+  },
+  {
+    "recordId": "DEMO-1779108221941-f8uedwwc4",
+    "decision": "REJECTED",
+    "confidence": 75,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:43:41.941Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 70,
+    "status": "QUARENTENA",
+    "input": {
+      "produto": "Notebook Samsung Book",
+      "categoria": "Eletrônicos",
+      "preco": 0.01,
+      "cidade": "Fortaleza"
+    },
+    "correctedData": {
+      "produto": "Notebook Samsung Book",
+      "categoria": "Eletrônicos",
+      "preco": 0.01,
+      "cidade": "Fortaleza"
+    },
+    "id": "decision-1779108221941-83lpta8nx"
+  },
+  {
+    "recordId": "DEMO-1779108224957-c172013b7",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:43:44.957Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Cesta básica familiar mensal",
+      "preco": 258.18,
+      "cidade": "Recife"
+    },
+    "correctedData": {
+      "produto": "Cesta básica familiar mensal",
+      "categoria": "Alimentos",
+      "preco": 258.18,
+      "cidade": "Recife"
+    },
+    "id": "decision-1779108224957-ex7a875ub"
+  },
+  {
+    "recordId": "DEMO-1779108227959-l6235imtf",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:43:47.959Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Camiseta algodão premium",
+      "categoria": "Vestuário",
+      "preco": 83.43,
+      "cidade": "Porto Alegre"
+    },
+    "correctedData": {
+      "produto": "Camiseta algodão premium",
+      "categoria": "Vestuário",
+      "preco": 83.43,
+      "cidade": "Porto Alegre"
+    },
+    "id": "decision-1779108227959-phwoxkdzh"
+  },
+  {
+    "recordId": "DEMO-1779108230962-yojvx3v7p",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:43:50.963Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Notebook Dell Inspiron 15 3520",
+      "categoria": "Eletrônicos",
+      "preco": 3808.89,
+      "cidade": "São Paulo"
+    },
+    "correctedData": {
+      "produto": "Notebook Dell Inspiron 15 3520",
+      "categoria": "Eletrônicos",
+      "preco": 3808.89,
+      "cidade": "São Paulo"
+    },
+    "id": "decision-1779108230963-1xchqvj4y"
+  },
+  {
+    "recordId": "DEMO-1779108233975-lal08quyj",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:43:53.975Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 84,
+    "status": "APROVADO",
+    "input": {
+      "produto": "iPhone 15 128GB",
+      "categoria": "",
+      "preco": 6173.82,
+      "cidade": "RJ"
+    },
+    "correctedData": {
+      "produto": "iPhone 15 128GB",
+      "categoria": "Eletrônicos",
+      "preco": 6173.82,
+      "cidade": "Rio de Janeiro"
+    },
+    "id": "decision-1779108233975-6xvb672un"
+  },
+  {
+    "recordId": "DEMO-1779108236974-nb5ojbkh0",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:43:56.975Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 92,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Smart TV LG 55 polegadas 4K",
+      "categoria": "eletronicos",
+      "preco": 2922.61,
+      "cidade": "sp"
+    },
+    "correctedData": {
+      "produto": "Smart TV LG 55 polegadas 4K",
+      "categoria": "Eletrônicos",
+      "preco": 2922.61,
+      "cidade": "São Paulo"
+    },
+    "id": "decision-1779108236975-0cjp8xtjy"
+  },
+  {
+    "recordId": "DEMO-1779108239974-kl9agswkk",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:43:59.975Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Serviço de instalação de ar-condicionado split",
+      "categoria": "Serviços",
+      "preco": 499.29,
+      "cidade": "Curitiba"
+    },
+    "correctedData": {
+      "produto": "Serviço de instalação de ar-condicionado split",
+      "categoria": "Serviços",
+      "preco": 499.29,
+      "cidade": "Curitiba"
+    },
+    "id": "decision-1779108239975-o8mr5e90m"
+  },
+  {
+    "recordId": "DEMO-1779108242975-4oi662jrz",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:44:02.976Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Geladeira Brastemp Frost Free 375L",
+      "categoria": "Eletrodomésticos",
+      "preco": 4233.36,
+      "cidade": "Belo Horizonte"
+    },
+    "correctedData": {
+      "produto": "Geladeira Brastemp Frost Free 375L",
+      "categoria": "Eletrodomésticos",
+      "preco": 4233.36,
+      "cidade": "Belo Horizonte"
+    },
+    "id": "decision-1779108242976-drlsgqtls"
+  },
+  {
+    "recordId": "DEMO-1779108245976-2qaqx6fj1",
+    "decision": "REJECTED",
+    "confidence": 75,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:44:05.976Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 70,
+    "status": "QUARENTENA",
+    "input": {
+      "produto": "Notebook Samsung Book",
+      "categoria": "Eletrônicos",
+      "preco": 0.01,
+      "cidade": "Fortaleza"
+    },
+    "correctedData": {
+      "produto": "Notebook Samsung Book",
+      "categoria": "Eletrônicos",
+      "preco": 0.01,
+      "cidade": "Fortaleza"
+    },
+    "id": "decision-1779108245976-3pmgdk1of"
+  },
+  {
+    "recordId": "DEMO-1779108248976-cpt9erbdn",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:44:08.976Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Cesta básica familiar mensal",
+      "preco": 246.95,
+      "cidade": "Recife"
+    },
+    "correctedData": {
+      "produto": "Cesta básica familiar mensal",
+      "categoria": "Alimentos",
+      "preco": 246.95,
+      "cidade": "Recife"
+    },
+    "id": "decision-1779108248976-gehr02v11"
+  },
+  {
+    "recordId": "DEMO-1779108251991-otmvky94y",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:44:11.991Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Camiseta algodão premium",
+      "categoria": "Vestuário",
+      "preco": 84.13,
+      "cidade": "Porto Alegre"
+    },
+    "correctedData": {
+      "produto": "Camiseta algodão premium",
+      "categoria": "Vestuário",
+      "preco": 84.13,
+      "cidade": "Porto Alegre"
+    },
+    "id": "decision-1779108251991-fu3lim2ex"
+  },
+  {
+    "recordId": "DEMO-1779108254992-ygja58jvg",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:44:14.993Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Notebook Dell Inspiron 15 3520",
+      "categoria": "Eletrônicos",
+      "preco": 3895.02,
+      "cidade": "São Paulo"
+    },
+    "correctedData": {
+      "produto": "Notebook Dell Inspiron 15 3520",
+      "categoria": "Eletrônicos",
+      "preco": 3895.02,
+      "cidade": "São Paulo"
+    },
+    "id": "decision-1779108254993-lj1niwmbw"
+  },
+  {
+    "recordId": "DEMO-1779108257994-7krd9pgba",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:44:17.995Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 84,
+    "status": "APROVADO",
+    "input": {
+      "produto": "iPhone 15 128GB",
+      "categoria": "",
+      "preco": 6173.3,
+      "cidade": "RJ"
+    },
+    "correctedData": {
+      "produto": "iPhone 15 128GB",
+      "categoria": "Eletrônicos",
+      "preco": 6173.3,
+      "cidade": "Rio de Janeiro"
+    },
+    "id": "decision-1779108257995-dxctiiblo"
+  },
+  {
+    "recordId": "DEMO-1779108261008-pf8ym3ev1",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:44:21.009Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 92,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Smart TV LG 55 polegadas 4K",
+      "categoria": "eletronicos",
+      "preco": 3056.97,
+      "cidade": "sp"
+    },
+    "correctedData": {
+      "produto": "Smart TV LG 55 polegadas 4K",
+      "categoria": "Eletrônicos",
+      "preco": 3056.97,
+      "cidade": "São Paulo"
+    },
+    "id": "decision-1779108261009-0ws8j7wl2"
+  },
+  {
+    "recordId": "DEMO-1779108264024-u2h5ru1lo",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:44:24.025Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Serviço de instalação de ar-condicionado split",
+      "categoria": "Serviços",
+      "preco": 458.13,
+      "cidade": "Curitiba"
+    },
+    "correctedData": {
+      "produto": "Serviço de instalação de ar-condicionado split",
+      "categoria": "Serviços",
+      "preco": 458.13,
+      "cidade": "Curitiba"
+    },
+    "id": "decision-1779108264025-qiabzcs5s"
+  },
+  {
+    "recordId": "DEMO-1779108267024-a51iy1iha",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:44:27.025Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Geladeira Brastemp Frost Free 375L",
+      "categoria": "Eletrodomésticos",
+      "preco": 4528.21,
+      "cidade": "Belo Horizonte"
+    },
+    "correctedData": {
+      "produto": "Geladeira Brastemp Frost Free 375L",
+      "categoria": "Eletrodomésticos",
+      "preco": 4528.21,
+      "cidade": "Belo Horizonte"
+    },
+    "id": "decision-1779108267025-dthvdjv6l"
+  },
+  {
+    "recordId": "DEMO-1779108270024-wu8isyvpd",
+    "decision": "REJECTED",
+    "confidence": 75,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:44:30.025Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 70,
+    "status": "QUARENTENA",
+    "input": {
+      "produto": "Notebook Samsung Book",
+      "categoria": "Eletrônicos",
+      "preco": 0.01,
+      "cidade": "Fortaleza"
+    },
+    "correctedData": {
+      "produto": "Notebook Samsung Book",
+      "categoria": "Eletrônicos",
+      "preco": 0.01,
+      "cidade": "Fortaleza"
+    },
+    "id": "decision-1779108270025-zfvu941ty"
+  },
+  {
+    "recordId": "DEMO-1779108273026-1mq9s31ql",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:44:33.026Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Cesta básica familiar mensal",
+      "preco": 238.9,
+      "cidade": "Recife"
+    },
+    "correctedData": {
+      "produto": "Cesta básica familiar mensal",
+      "categoria": "Alimentos",
+      "preco": 238.9,
+      "cidade": "Recife"
+    },
+    "id": "decision-1779108273026-ov6jgbb1y"
+  },
+  {
+    "recordId": "DEMO-1779108276025-7g5uaezvv",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:44:36.026Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Camiseta algodão premium",
+      "categoria": "Vestuário",
+      "preco": 97.25,
+      "cidade": "Porto Alegre"
+    },
+    "correctedData": {
+      "produto": "Camiseta algodão premium",
+      "categoria": "Vestuário",
+      "preco": 97.25,
+      "cidade": "Porto Alegre"
+    },
+    "id": "decision-1779108276026-hlbqh5u30"
+  },
+  {
+    "recordId": "DEMO-1779108279041-s7xr3ihe6",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:44:39.042Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Notebook Dell Inspiron 15 3520",
+      "categoria": "Eletrônicos",
+      "preco": 3984.28,
+      "cidade": "São Paulo"
+    },
+    "correctedData": {
+      "produto": "Notebook Dell Inspiron 15 3520",
+      "categoria": "Eletrônicos",
+      "preco": 3984.28,
+      "cidade": "São Paulo"
+    },
+    "id": "decision-1779108279042-7lwdleixp"
+  },
+  {
+    "recordId": "DEMO-1779108282042-cdqzayw2s",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:44:42.042Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 84,
+    "status": "APROVADO",
+    "input": {
+      "produto": "iPhone 15 128GB",
+      "categoria": "",
+      "preco": 6285.55,
+      "cidade": "RJ"
+    },
+    "correctedData": {
+      "produto": "iPhone 15 128GB",
+      "categoria": "Eletrônicos",
+      "preco": 6285.55,
+      "cidade": "Rio de Janeiro"
+    },
+    "id": "decision-1779108282042-nkljqbuz4"
+  },
+  {
+    "recordId": "DEMO-1779108285042-vrxejwar2",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:44:45.043Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 92,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Smart TV LG 55 polegadas 4K",
+      "categoria": "eletronicos",
+      "preco": 2976.94,
+      "cidade": "sp"
+    },
+    "correctedData": {
+      "produto": "Smart TV LG 55 polegadas 4K",
+      "categoria": "Eletrônicos",
+      "preco": 2976.94,
+      "cidade": "São Paulo"
+    },
+    "id": "decision-1779108285043-pq0vg1d4u"
+  },
+  {
+    "recordId": "DEMO-1779108288042-jusy44t33",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:44:48.043Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Serviço de instalação de ar-condicionado split",
+      "categoria": "Serviços",
+      "preco": 483.35,
+      "cidade": "Curitiba"
+    },
+    "correctedData": {
+      "produto": "Serviço de instalação de ar-condicionado split",
+      "categoria": "Serviços",
+      "preco": 483.35,
+      "cidade": "Curitiba"
+    },
+    "id": "decision-1779108288043-y5j48c8xg"
+  },
+  {
+    "recordId": "DEMO-1779108291042-zoytdji3m",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:44:51.043Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Geladeira Brastemp Frost Free 375L",
+      "categoria": "Eletrodomésticos",
+      "preco": 4514.9,
+      "cidade": "Belo Horizonte"
+    },
+    "correctedData": {
+      "produto": "Geladeira Brastemp Frost Free 375L",
+      "categoria": "Eletrodomésticos",
+      "preco": 4514.9,
+      "cidade": "Belo Horizonte"
+    },
+    "id": "decision-1779108291043-4vc8jg4mo"
+  },
+  {
+    "recordId": "DEMO-1779108294043-zcbru3smu",
+    "decision": "REJECTED",
+    "confidence": 75,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:44:54.043Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 70,
+    "status": "QUARENTENA",
+    "input": {
+      "produto": "Notebook Samsung Book",
+      "categoria": "Eletrônicos",
+      "preco": 0.01,
+      "cidade": "Fortaleza"
+    },
+    "correctedData": {
+      "produto": "Notebook Samsung Book",
+      "categoria": "Eletrônicos",
+      "preco": 0.01,
+      "cidade": "Fortaleza"
+    },
+    "id": "decision-1779108294043-efjmdcpfz"
+  },
+  {
+    "recordId": "DEMO-1779108297058-8a5ap291e",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:44:57.058Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 85,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Cesta básica familiar mensal",
+      "preco": 252.52,
+      "cidade": "Recife"
+    },
+    "correctedData": {
+      "produto": "Cesta básica familiar mensal",
+      "categoria": "Alimentos",
+      "preco": 252.52,
+      "cidade": "Recife"
+    },
+    "id": "decision-1779108297058-a0wyjhkue"
+  },
+  {
+    "recordId": "DEMO-1779108300057-pxdvfo9f7",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:45:00.057Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Camiseta algodão premium",
+      "categoria": "Vestuário",
+      "preco": 90.88,
+      "cidade": "Porto Alegre"
+    },
+    "correctedData": {
+      "produto": "Camiseta algodão premium",
+      "categoria": "Vestuário",
+      "preco": 90.88,
+      "cidade": "Porto Alegre"
+    },
+    "id": "decision-1779108300057-6r7ripk3d"
+  },
+  {
+    "recordId": "DEMO-1779108303069-m9vm5m2on",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:45:03.070Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Notebook Dell Inspiron 15 3520",
+      "categoria": "Eletrônicos",
+      "preco": 3783.92,
+      "cidade": "São Paulo"
+    },
+    "correctedData": {
+      "produto": "Notebook Dell Inspiron 15 3520",
+      "categoria": "Eletrônicos",
+      "preco": 3783.92,
+      "cidade": "São Paulo"
+    },
+    "id": "decision-1779108303070-otkhl99yu"
+  },
+  {
+    "recordId": "DEMO-1779108306076-81xmwx7iw",
+    "decision": "REJECTED",
+    "confidence": 80,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:45:06.076Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 84,
+    "status": "APROVADO",
+    "input": {
+      "produto": "iPhone 15 128GB",
+      "categoria": "",
+      "preco": 6397.05,
+      "cidade": "RJ"
+    },
+    "correctedData": {
+      "produto": "iPhone 15 128GB",
+      "categoria": "Eletrônicos",
+      "preco": 6397.05,
+      "cidade": "Rio de Janeiro"
+    },
+    "id": "decision-1779108306076-708wp8ckh"
+  },
+  {
+    "recordId": "DEMO-1779108309076-5ee7xyquq",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:45:09.076Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 92,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Smart TV LG 55 polegadas 4K",
+      "categoria": "eletronicos",
+      "preco": 2968.33,
+      "cidade": "sp"
+    },
+    "correctedData": {
+      "produto": "Smart TV LG 55 polegadas 4K",
+      "categoria": "Eletrônicos",
+      "preco": 2968.33,
+      "cidade": "São Paulo"
+    },
+    "id": "decision-1779108309076-6qla9qchr"
+  },
+  {
+    "recordId": "DEMO-1779108312090-1dgddu1xl",
+    "decision": "REJECTED",
+    "confidence": 95,
+    "rulesApplied": [
+      "rule-reject-invalid",
+      "rule-low-confidence"
+    ],
+    "reasoning": "❌ Rejeita Dados Inválidos | 🚩 Flag Baixa Confiança: Confiança muito baixa - análise manual recomendada",
+    "timestamp": "2026-05-18T12:45:12.090Z",
+    "isAuto": true,
+    "processingTimeMs": 0,
+    "agentVersion": "1.0.0",
+    "qualityScore": 100,
+    "status": "APROVADO",
+    "input": {
+      "produto": "Serviço de instalação de ar-condicionado split",
+      "categoria": "Serviços",
+      "preco": 447.52,
+      "cidade": "Curitiba"
+    },
+    "correctedData": {
+      "produto": "Serviço de instalação de ar-condicionado split",
+      "categoria": "Serviços",
+      "preco": 447.52,
+      "cidade": "Curitiba"
+    },
+    "id": "decision-1779108312090-ph5acu63j"
   }
 ]

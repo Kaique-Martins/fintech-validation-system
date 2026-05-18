@@ -35,7 +35,7 @@ export class ValidationController {
     
     // Automatically process through agent and persist
     const recordId = `VAL-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
-    const agentDecision = this.agentService.evaluateValidation(recordId, validationResult);
+    const agentDecision = this.agentService.evaluateValidation(recordId, validationResult, record);
     
     return {
       ...validationResult,
@@ -56,7 +56,7 @@ export class ValidationController {
         if (item.result && !item.error) {
           const recordId = `IMP-${Date.now()}-${index}-${Math.random().toString(36).substr(2, 9)}`;
           try {
-            const agentDecision = this.agentService.evaluateValidation(recordId, item.result);
+            const agentDecision = this.agentService.evaluateValidation(recordId, item.result, records[index]);
             item.agentDecision = agentDecision;
           } catch (err) {
             console.error(`Error processing item ${index} through agent:`, err);

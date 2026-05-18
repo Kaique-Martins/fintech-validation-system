@@ -38,6 +38,23 @@ export interface ValidationHistory extends ValidationResult {
   input: ValidationRecord;
 }
 
+export interface AgentHistoryEntry {
+  id: string;
+  recordId: string;
+  decision: 'APPROVED' | 'REJECTED' | 'FLAGGED' | 'NEUTRAL';
+  confidence: number;
+  rulesApplied: string[];
+  reasoning: string;
+  timestamp: string;
+  isAuto: boolean;
+  processingTimeMs: number;
+  agentVersion: string;
+  qualityScore: number;
+  status: string;
+  input?: ValidationRecord;
+  correctedData?: CorrectedData;
+}
+
 export interface DashboardStats {
   totalValidations: number;
   approved: number;

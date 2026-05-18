@@ -1,4 +1,4 @@
-import { Controller, Get, Post, Body, Param, Put } from '@nestjs/common';
+import { Controller, Get, Post, Body, Param, Put, Query } from '@nestjs/common';
 import { AgentService } from './agent.service';
 import { AgentSchedulerService } from './agent-scheduler.service';
 import { AgentRule, AgentConfig, AgentDecision } from './agent.types';
@@ -92,6 +92,7 @@ export class AgentController {
     const agentDecision = this.agentService.evaluateValidation(
       `${record.produto}-${Date.now()}`,
       validation,
+      record,
     );
 
     return {
@@ -113,6 +114,7 @@ export class AgentController {
       const decision = this.agentService.evaluateValidation(
         `record-${i}`,
         validation,
+        records[i],
       );
 
       results.push({ rowIndex: i + 1, record: records[i], validation });
@@ -189,11 +191,25 @@ export class AgentController {
    */
   @Get('history/persisted')
   getPersistedHistory(
-    @Body('limit') limit?: number,
-    @Body('decision') decision?: string,
-    @Body('minConfidence') minConfidence?: number,
+    @Query('limit') limit?: string,
+    @Query('decision') decision?: string,
+    @Query('status') status?: string,
+    @Query('ruleId') ruleId?: string,
+    @Query('startDate') startDate?: string,
+    @Query('endDate') endDate?: string,
+    @Query('minConfidence') minConfidence?: string,
+    @Query('maxConfidence') maxConfidence?: string,
   ) {
-    return this.agentService.getPersistedDecisions(limit || 100, decision, minConfidence);
+    return this.agentService.getPersistedDecisions({
+      limit: limit ? Number(limit) : 100,
+      decision,
+      status,
+      ruleId,
+      startDate,
+      endDate,
+      minConfidence: minConfidence ? Number(minConfidence) : undefined,
+      maxConfidence: maxConfidence ? Number(maxConfidence) : undefined,
+    });
   }
 
   /**
@@ -216,8 +232,26 @@ export class AgentController {
    * Exporta decisões como CSV
    */
   @Get('history/export/csv')
-  exportDecisionsCSV() {
-    const csv = this.agentService.exportDecisionsAsCSV();
+  exportDecisionsCSV(
+    @Query('limit') limit?: string,
+    @Query('decision') decision?: string,
+    @Query('status') status?: string,
+    @Query('ruleId') ruleId?: string,
+    @Query('startDate') startDate?: string,
+    @Query('endDate') endDate?: string,
+    @Query('minConfidence') minConfidence?: string,
+    @Query('maxConfidence') maxConfidence?: string,
+  ) {
+    const csv = this.agentService.exportDecisionsAsCSV({
+      limit: limit ? Number(limit) : undefined,
+      decision,
+      status,
+      ruleId,
+      startDate,
+      endDate,
+      minConfidence: minConfidence ? Number(minConfidence) : undefined,
+      maxConfidence: maxConfidence ? Number(maxConfidence) : undefined,
+    });
     return {
       format: 'csv',
       data: csv,
