@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import axios from 'axios';
 import '../styles/NotificationCenter.css';
 
@@ -27,20 +27,12 @@ export const NotificationCenter: React.FC = () => {
   const [stats, setStats] = useState<NotificationStats | null>(null);
   const [isOpen, setIsOpen] = useState(false);
   const [filter, setFilter] = useState<'all' | 'unread' | 'critical' | 'warning'>('all');
-  const [refreshInterval, setRefreshInterval] = useState<NodeJS.Timeout | null>(null);
 
-  useEffect(() => {
-    loadNotifications();
-    const interval = setInterval(loadNotifications, 5000);
-    setRefreshInterval(interval);
-    return () => clearInterval(interval);
-  }, []);
-
-  const loadNotifications = async () => {
+  const loadNotifications = useCallback(async () => {
     try {
       const [notifRes, statsRes] = await Promise.all([
-        axios.get('/api/notifications'),
-        axios.get('/api/notifications/stats'),
+        axios.get<Notification[]>('/api/notifications'),
+        axios.get<NotificationStats>('/api/notifications/stats'),
       ]);
 
       setNotifications(notifRes.data);
@@ -48,7 +40,13 @@ export const NotificationCenter: React.FC = () => {
     } catch (error) {
       console.error('Error loading notifications:', error);
     }
-  };
+  }, []);
+
+  useEffect(() => {
+    loadNotifications();
+    const interval = setInterval(loadNotifications, 5000);
+    return () => clearInterval(interval);
+  }, [loadNotifications]);
 
   const handleMarkAsRead = async (id: string) => {
     try {

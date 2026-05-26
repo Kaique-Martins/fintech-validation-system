@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useCallback } from 'react';
 import { ValidationRecord } from '../types/validation';
 import '../styles/ValidationForm.css';
 
@@ -14,32 +14,36 @@ export const ValidationForm: React.FC<ValidationFormProps> = ({ onSubmit, loadin
     preco: 0,
     cidade: '',
   });
+  const [error, setError] = useState<string>('');
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
+  const handleChange = useCallback((e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
+    setError(''); // Clear error when user starts typing
     setForm((prev) => ({
       ...prev,
       [name]: name === 'preco' ? parseFloat(value) || 0 : value,
     }));
-  };
+  }, []);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = useCallback((e: React.FormEvent) => {
     e.preventDefault();
     if (!form.produto || !form.cidade || form.preco <= 0) {
-      alert('Por favor, preencha todos os campos obrigatórios (Produto, Cidade, Preço)');
+      setError('Por favor, preencha todos os campos obrigatórios (Produto, Cidade, Preço)');
       return;
     }
+    setError('');
     onSubmit(form);
-  };
+  }, [form, onSubmit]);
 
-  const handleReset = () => {
+  const handleReset = useCallback(() => {
     setForm({
       produto: '',
       categoria: '',
       preco: 0,
       cidade: '',
     });
-  };
+    setError('');
+  }, []);
 
   return (
     <form className="validation-form" onSubmit={handleSubmit}>
@@ -99,6 +103,20 @@ export const ValidationForm: React.FC<ValidationFormProps> = ({ onSubmit, loadin
           required
         />
       </div>
+
+      {error && (
+        <div className="form-error" style={{
+          padding: '12px',
+          marginBottom: '16px',
+          backgroundColor: '#fee',
+          border: '1px solid #fcc',
+          borderRadius: '4px',
+          color: '#c33',
+          fontSize: '14px'
+        }}>
+          ⚠️ {error}
+        </div>
+      )}
 
       <div className="form-actions">
         <button type="submit" disabled={loading} className="btn-primary">

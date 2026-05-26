@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, Logger } from '@nestjs/common';
 import {
   AgentRule,
   AgentConfig,
@@ -12,6 +12,8 @@ import { LearningService } from './learning.service';
 
 @Injectable()
 export class AgentService {
+  private readonly logger = new Logger(AgentService.name);
+
   constructor(
     private readonly dbService: DatabaseService,
     private readonly learningService: LearningService,
@@ -101,8 +103,8 @@ export class AgentService {
 
     this.decisions.push(decision);
 
-    // Persist decision to database
-    this.dbService.saveDecision({
+    // Persist decision to database (fire-and-forget with error handling)
+    const decisionData = {
       recordId,
       decision: finalDecision,
       confidence: validation.confidenceLevel,
@@ -116,6 +118,13 @@ export class AgentService {
       status: validation.status,
       input: inputRecord,
       correctedData: validation.dado_corrigido,
+    };
+
+    // Use setImmediate to ensure database persistence doesn't block response
+    setImmediate(() => {
+      this.dbService.saveDecision(decisionData).catch((error) => {
+        this.logger.error(`Failed to persist decision for record ${recordId}:`, error);
+      });
     });
 
     // Mantém apenas últimas 1000 decisões
@@ -135,20 +144,23 @@ export class AgentService {
   ): boolean {
     const fieldValue = this.getFieldValue(rule.condition.field, validation);
 
+    // Return false if field value is null
+    if (fieldValue === null) return false;
+
     switch (rule.condition.operator) {
       case 'lessThan':
-        return fieldValue < rule.condition.value;
+        return typeof fieldValue === 'number' && fieldValue < (rule.condition.value as number);
       case 'greaterThan':
-        return fieldValue > rule.condition.value;
+        return typeof fieldValue === 'number' && fieldValue > (rule.condition.value as number);
       case 'equals':
         return fieldValue === rule.condition.value;
       case 'contains':
         if (Array.isArray(fieldValue)) {
           return fieldValue.some((item) =>
-            String(item).includes(rule.condition.value),
+            String(item).includes(String(rule.condition.value)),
           );
         }
-        return String(fieldValue).includes(rule.condition.value);
+        return String(fieldValue).includes(String(rule.condition.value));
       default:
         return false;
     }
@@ -160,13 +172,15 @@ export class AgentService {
   private getFieldValue(
     field: string,
     validation: ValidationResultDto,
-  ): any {
+  ): string | number | string[] | null {
     switch (field) {
       case 'price':
         return validation.dado_corrigido.preco;
       case 'quality':
+      case 'qualityScore':
         return validation.qualityScore;
       case 'confidence':
+      case 'confidenceLevel':
         return validation.confidenceLevel;
       case 'alerts':
         return validation.alerts.map((a) => a.severity);

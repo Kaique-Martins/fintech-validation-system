@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, Logger } from '@nestjs/common';
 import {
   IRepository,
   RepositoryFactory,
@@ -14,12 +14,13 @@ import {
  */
 @Injectable()
 export class DatabaseService {
+  private readonly logger = new Logger(DatabaseService.name);
   private repository: IRepository;
 
   constructor() {
     // Initialize repository based on configuration
     this.repository = RepositoryFactory.create('auto');
-    console.log('[DatabaseService] Initialized with repository:', this.repository.constructor.name);
+    this.logger.log(`[DatabaseService] Initialized with repository: ${this.repository.constructor.name}`);
   }
 
   // ==================== Decision Operations ====================
@@ -34,22 +35,6 @@ export class DatabaseService {
       id,
     };
     await this.repository.saveDecision(persistedDecision);
-    return persistedDecision;
-  }
-
-  /**
-   * Synchronous wrapper for backward compatibility
-   */
-  saveDecisionSync(decision: Omit<PersistedDecision, 'id'>): PersistedDecision {
-    const id = `decision-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
-    const persistedDecision: PersistedDecision = {
-      ...decision,
-      id,
-    };
-    // Non-blocking async call
-    this.repository.saveDecision(persistedDecision).catch((err) => {
-      console.error('Error saving decision:', err);
-    });
     return persistedDecision;
   }
 
@@ -77,7 +62,7 @@ export class DatabaseService {
   /**
    * Query decisions with filters
    */
-  async queryDecisions(query: any): Promise<PersistedDecision[]> {
+  async queryDecisions(query: RepositoryQuery): Promise<PersistedDecision[]> {
     const repositoryQuery: RepositoryQuery = {
       limit: query.limit,
       offset: query.offset,
@@ -85,8 +70,8 @@ export class DatabaseService {
       endDate: query.endDate,
       status: query.status,
       decision: query.decision,
-      confidenceMin: query.confidenceMin ?? query.minConfidence,
-      confidenceMax: query.confidenceMax ?? query.maxConfidence,
+      confidenceMin: query.confidenceMin,
+      confidenceMax: query.confidenceMax,
       ruleId: query.ruleId,
     };
     return await this.repository.getAllDecisions(repositoryQuery);

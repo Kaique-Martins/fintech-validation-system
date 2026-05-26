@@ -1,4 +1,27 @@
-import axios from 'axios';
+import axios, { AxiosError } from 'axios';
+
+interface ValidationResponse {
+  status: string;
+  qualityScore: number;
+  confidenceLevel: number;
+  dado_original: Record<string, unknown>;
+  dado_corrigido: Record<string, unknown>;
+  alerts: Array<{ type: string; message: string; severity: string }>;
+  rulesApplied: string[];
+  agentDecision?: unknown;
+}
+
+interface BatchItem {
+  result?: ValidationResponse;
+  error?: string;
+}
+
+interface BatchResponse {
+  totalCount: number;
+  successCount: number;
+  failureCount: number;
+  results: BatchItem[];
+}
 import { ValidationRecord, ValidationResult } from '../types/validation';
 
 const API_URL = import.meta.env.VITE_API_URL || '/api';
@@ -35,6 +58,8 @@ export const validationService = {
       const response = await api.post<ValidationResult>('/validation/validate', record);
       return response.data;
     } catch (error) {
+      const axiosError = error as { message?: string; response?: { data?: { message?: string } } };
+      console.error('Validation failed:', axiosError.message || axiosError);
       throw error;
     }
   },
@@ -44,6 +69,8 @@ export const validationService = {
       const response = await api.post<BatchValidationResponse>('/validation/batch-validate', records);
       return response.data;
     } catch (error) {
+      const axiosError = error as { message?: string };
+      console.error('Batch validation failed:', axiosError.message || error);
       throw error;
     }
   },
@@ -53,15 +80,17 @@ export const validationService = {
       const response = await api.get('/validation/interface');
       return response.data.interface;
     } catch (error) {
+      console.error('Failed to get validation interface:', error);
       throw error;
     }
   },
 
-  async getInfo(): Promise<any> {
+  async getInfo(): Promise<Record<string, unknown>> {
     try {
-      const response = await api.get('/validation/info');
+      const response = await api.get<Record<string, unknown>>('/validation/info');
       return response.data;
     } catch (error) {
+      console.error('Failed to get validation info:', error);
       throw error;
     }
   },
@@ -71,6 +100,7 @@ export const validationService = {
       const response = await api.get<ExportCsvResponse>('/agent/history/export/csv');
       return response.data;
     } catch (error) {
+      console.error('Failed to export CSV report:', error);
       throw error;
     }
   },

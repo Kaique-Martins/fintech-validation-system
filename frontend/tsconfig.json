@@ -10,11 +10,6 @@
     "resolveJsonModule": true,
     "jsx": "react-jsx",
     "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
-    "noEmit": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "isolatedModules": true,
     "baseUrl": "./src",
     "paths": {
       "@/*": ["./*"]

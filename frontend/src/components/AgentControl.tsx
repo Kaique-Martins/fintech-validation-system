@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import '../styles/AgentControl.css';
+import ExplanationDisplay from './ExplanationDisplay';
+import AgentEvolutionDashboard from './AgentEvolutionDashboard';
+import AnomalyAlertPanel from './AnomalyAlertPanel';
 
 interface AgentMetrics {
   totalProcessed: number;
@@ -84,8 +87,9 @@ export const AgentControl: React.FC = () => {
   const [config, setConfig] = useState<AgentConfig | null>(null);
   const [learning, setLearning] = useState<LearningStats | null>(null);
   const [loading, setLoading] = useState(true);
-  const [activeTab, setActiveTab] = useState<'metrics' | 'decisions' | 'config' | 'insights'>('metrics');
-  const [refreshInterval, setRefreshInterval] = useState<NodeJS.Timeout | null>(null);
+  const [activeTab, setActiveTab] = useState<'metrics' | 'decisions' | 'config' | 'insights' | 'explainability' | 'evolution' | 'anomalies'>('metrics');
+  const [refreshInterval, setRefreshInterval] = useState<ReturnType<typeof setInterval> | null>(null);
+  const [notification, setNotification] = useState<{ type: 'success' | 'error'; message: string } | null>(null);
 
   useEffect(() => {
     loadAgentData();
@@ -133,20 +137,29 @@ export const AgentControl: React.FC = () => {
     try {
       await axios.put('/api/agent/config', config);
       await loadAgentData();
-      alert('✅ Configuração salva com sucesso!');
+      setNotification({ type: 'success', message: '✅ Configuração salva com sucesso!' });
+      setTimeout(() => setNotification(null), 3000);
     } catch (error) {
       console.error('Error saving config:', error);
-      alert('❌ Erro ao salvar configuração');
+      setNotification({ type: 'error', message: '❌ Erro ao salvar configuração' });
+      setTimeout(() => setNotification(null), 3000);
     }
   };
 
   const handleResetMetrics = async () => {
-    if (window.confirm('Deseja resetar todas as métricas do agente?')) {
+    const confirm = window.prompt(
+      'Digite "CONFIRMAR" para resetar todas as métricas do agente (esta ação não pode ser desfeita):',
+    );
+    if (confirm === 'CONFIRMAR') {
       try {
         await axios.post('/api/agent/reset-metrics');
         await loadAgentData();
+        setNotification({ type: 'success', message: '✅ Métricas resetadas com sucesso!' });
+        setTimeout(() => setNotification(null), 3000);
       } catch (error) {
         console.error('Error resetting metrics:', error);
+        setNotification({ type: 'error', message: '❌ Erro ao resetar métricas' });
+        setTimeout(() => setNotification(null), 3000);
       }
     }
   };
@@ -166,6 +179,11 @@ export const AgentControl: React.FC = () => {
 
   return (
     <div className="agent-control-container">
+      {notification && (
+        <div className={`notification-toast notification-${notification.type}`}>
+          {notification.message}
+        </div>
+      )}
       <div className="agent-header">
         <h1>🤖 Autonomous Agent Control</h1>
         <p>Sistema inteligente de validação autônoma com decisão automática</p>
@@ -195,6 +213,24 @@ export const AgentControl: React.FC = () => {
           onClick={() => setActiveTab('config')}
         >
           ⚙️ Configuração
+        </button>
+        <button
+          className={`tab-button ${activeTab === 'explainability' ? 'active' : ''}`}
+          onClick={() => setActiveTab('explainability')}
+        >
+          ✨ Explainabilidade
+        </button>
+        <button
+          className={`tab-button ${activeTab === 'evolution' ? 'active' : ''}`}
+          onClick={() => setActiveTab('evolution')}
+        >
+          📈 Evolução
+        </button>
+        <button
+          className={`tab-button ${activeTab === 'anomalies' ? 'active' : ''}`}
+          onClick={() => setActiveTab('anomalies')}
+        >
+          🚨 Anomalias
         </button>
       </div>
 
@@ -477,6 +513,66 @@ export const AgentControl: React.FC = () => {
           )}
         </div>
       )}
+
+      {activeTab === 'explainability' && (
+        <div className="agent-explainability-section">
+          <h3>✨ Explainabilidade de Decisões</h3>
+          <p style={{ color: '#6b7280', marginBottom: '16px' }}>
+            Ver explicações detalhadas de por que o agente tomou cada decisão e fornecer feedback para que ele aprenda.
+          </p>
+          {decisions.length > 0 ? (
+            <div>
+              {decisions.slice(0, 10).map((decision) => (
+                <ExplanationDisplay
+                  key={decision.recordId}
+                  recordId={decision.recordId}
+                  explanation={{
+                    recordId: decision.recordId,
+                    decision: decision.decision,
+                    confidenceScore: decision.confidence,
+                    finalScore: decision.confidence,
+                    ruleEvaluations: decision.rulesApplied.map((rule) => ({
+                      ruleId: rule,
+                      ruleName: rule,
+                      fieldEvaluated: 'unknown',
+                      fieldValue: null,
+                      operator: 'unknown',
+                      expectedValue: null,
+                      matched: true,
+                      weight: 0.5,
+                      score: decision.confidence,
+                      explanation: `Rule ${rule} applied`,
+                    })),
+                    decisionReasoning: decision.reasoning,
+                    keyFactors: {
+                      positive: decision.decision === 'APPROVED' ? ['Item validado com sucesso'] : [],
+                      negative: decision.decision === 'REJECTED' ? ['Falhou em validação'] : [],
+                      neutral: [],
+                    },
+                    timestamp: decision.timestamp,
+                  }}
+                />
+              ))}
+            </div>
+          ) : (
+            <p className="no-data">Nenhuma decisão para explicar ainda. Valide alguns registros primeiro!</p>
+          )}
+        </div>
+      )}
+
+      {activeTab === 'evolution' && (
+        <div className="agent-evolution-section">
+          <AgentEvolutionDashboard />
+        </div>
+      )}
+
+      {activeTab === 'anomalies' && (
+        <div className="agent-anomalies-section">
+          <AnomalyAlertPanel />
+        </div>
+      )}
     </div>
   );
 };
+
+export default AgentControl;

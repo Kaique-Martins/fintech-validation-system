@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback, useRef } from 'react';
 import '../styles/IntegratedDashboard.css';
 import { api, validationService } from '../services/validationService';
 
@@ -66,20 +66,12 @@ export const IntegratedDashboard: React.FC<IntegratedDashboardProps> = ({ onNavi
   const [demoLoading, setDemoLoading] = useState(false);
   const [demoPreview, setDemoPreview] = useState<DemoPreview | null>(null);
   const [demoNextScenario, setDemoNextScenario] = useState<string>('');
+  const [errorMessage, setErrorMessage] = useState<string>('');
 
-  useEffect(() => {
-    loadSystemMetrics();
-    checkDemoStatus();
-    loadDemoPreview();
-    const interval = setInterval(() => {
-      loadSystemMetrics();
-      checkDemoStatus();
-      loadDemoPreview();
-    }, 5000);
-    return () => clearInterval(interval);
-  }, []);
+  // Use useRef to track all intervals for proper cleanup
+  const intervalsRef = useRef<Array<ReturnType<typeof setInterval>>>([]);
 
-  const loadSystemMetrics = async () => {
+  const loadSystemMetrics = useCallback(async () => {
     try {
       // Carrega métricas do agent
       const agentMetrics = await api.get('/agent/metrics');
@@ -97,18 +89,18 @@ export const IntegratedDashboard: React.FC<IntegratedDashboardProps> = ({ onNavi
     } catch (error) {
       console.error('Error loading metrics:', error);
     }
-  };
+  }, []);
 
-  const checkDemoStatus = async () => {
+  const checkDemoStatus = useCallback(async () => {
     try {
       const response = await api.get('/demo/status');
       setDemoRunning(response.data.isRunning);
     } catch (error) {
       console.error('Error checking demo status:', error);
     }
-  };
+  }, []);
 
-  const loadDemoPreview = async () => {
+  const loadDemoPreview = useCallback(async () => {
     try {
       const response = await api.get('/demo/preview');
       setDemoPreview(response.data.lastSnapshot || null);
@@ -116,29 +108,66 @@ export const IntegratedDashboard: React.FC<IntegratedDashboardProps> = ({ onNavi
     } catch (error) {
       console.error('Error loading demo preview:', error);
     }
-  };
+  }, []);
 
-  const startDemo = async () => {
+  useEffect(() => {
+    // Initial load
+    loadSystemMetrics();
+    checkDemoStatus();
+    loadDemoPreview();
+
+    // Setup interval refresh
+    const mainInterval = setInterval(() => {
+      loadSystemMetrics();
+      checkDemoStatus();
+      loadDemoPreview();
+    }, 5000);
+
+    intervalsRef.current.push(mainInterval);
+
+    // Cleanup function
+    return () => {
+      intervalsRef.current.forEach(interval => clearInterval(interval));
+      intervalsRef.current = [];
+    };
+  }, [loadSystemMetrics, checkDemoStatus, loadDemoPreview]);
+
+  const startDemo = useCallback(async () => {
     try {
       setDemoLoading(true);
       await api.post('/demo/start');
       setDemoRunning(true);
       await loadDemoPreview();
       // Atualiza métricas mais frequentemente durante o demo
-      loadSystemMetrics();
+      await loadSystemMetrics();
+      
+      // Create faster update interval during demo
       const fastInterval = setInterval(() => {
         loadSystemMetrics();
         loadDemoPreview();
       }, 2000);
-      setTimeout(() => clearInterval(fastInterval), 300000); // Para nach 5 mins
+      
+      intervalsRef.current.push(fastInterval);
+      
+      // Stop fast interval after 5 minutes
+      const stopTimer = setTimeout(() => {
+        clearInterval(fastInterval);
+        intervalsRef.current = intervalsRef.current.filter(int => int !== fastInterval);
+      }, 300000);
+      
+      // Store the timer reference for cleanup
+      return () => {
+        clearTimeout(stopTimer);
+        clearInterval(fastInterval);
+      };
     } catch (error) {
       console.error('Error starting demo:', error);
     } finally {
       setDemoLoading(false);
     }
-  };
+  }, [loadSystemMetrics, loadDemoPreview]);
 
-  const stopDemo = async () => {
+  const stopDemo = useCallback(async () => {
     try {
       setDemoLoading(true);
       await api.post('/demo/stop');
@@ -148,7 +177,7 @@ export const IntegratedDashboard: React.FC<IntegratedDashboardProps> = ({ onNavi
     } finally {
       setDemoLoading(false);
     }
-  };
+  }, []);
 
   const getStatusColor = (status: string) => {
     switch (status) {
@@ -395,7 +424,8 @@ export const IntegratedDashboard: React.FC<IntegratedDashboardProps> = ({ onNavi
                 URL.revokeObjectURL(url);
               } catch (error) {
                 console.error('Error exporting report:', error);
-                alert('Não foi possível exportar o relatório agora.');
+                setErrorMessage('Não foi possível exportar o relatório agora.');
+                setTimeout(() => setErrorMessage(''), 5000);
               }
             }}
           >

@@ -3,22 +3,33 @@
  * Define rules que o agente segue autonomamente
  */
 
+// Union type para valores de condições
+export type RuleConditionValue = string | number | string[] | boolean;
+
+export type RuleFieldType = 'price' | 'quality' | 'qualityScore' | 'confidence' | 'confidenceLevel' | 'alerts' | 'status';
+
+export type RuleOperator = 'lessThan' | 'greaterThan' | 'equals' | 'contains';
+
+export interface RuleCondition {
+  field: RuleFieldType;
+  operator: RuleOperator;
+  value: RuleConditionValue;
+}
+
+export interface RuleAction {
+  autoApprove?: boolean;
+  autoReject?: boolean;
+  flagForReview?: boolean;
+  notifyUser?: boolean;
+  customMessage?: string;
+}
+
 export interface AgentRule {
   id: string;
   name: string;
   description: string;
-  condition: {
-    field: string; // 'price', 'quality', 'confidence', 'alerts'
-    operator: 'lessThan' | 'greaterThan' | 'equals' | 'contains';
-    value: any;
-  };
-  action: {
-    autoApprove?: boolean;
-    autoReject?: boolean;
-    flagForReview?: boolean;
-    notifyUser?: boolean;
-    customMessage?: string;
-  };
+  condition: RuleCondition;
+  action: RuleAction;
   enabled: boolean;
   priority: number; // 1-10, maior = mais importante
   createdAt: string;

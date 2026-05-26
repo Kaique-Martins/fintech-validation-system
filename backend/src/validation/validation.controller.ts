@@ -1,4 +1,4 @@
-import { Controller, Post, Body, Get, Inject, forwardRef } from '@nestjs/common';
+import { Controller, Post, Body, Get, Inject, forwardRef, Logger } from '@nestjs/common';
 import { ApiTags, ApiOperation, ApiBody, ApiResponse } from '@nestjs/swagger';
 import { ValidationService } from './validation.service';
 import { AgentService } from '../agent/agent.service';
@@ -8,6 +8,8 @@ import { BatchValidationResultDto, BatchProcessResponse } from './dto/batch.dto'
 @ApiTags('validation')
 @Controller('validation')
 export class ValidationController {
+  private readonly logger = new Logger(ValidationController.name);
+
   constructor(
     private readonly validationService: ValidationService,
     @Inject(forwardRef(() => AgentService))
@@ -30,7 +32,7 @@ export class ValidationController {
   @ApiBody({ type: ValidationRecordDto, description: 'Dados do produto a validar' })
   @ApiResponse({ status: 200, description: 'Resultado da validação' })
   @ApiResponse({ status: 400, description: 'Erro na validação' })
-  validate(@Body() record: ValidationRecordDto): ValidationResultDto & { agentDecision?: any } {
+  validate(@Body() record: ValidationRecordDto): ValidationResultDto & { agentDecision?: unknown } {
     const validationResult = this.validationService.validate(record);
     
     // Automatically process through agent and persist
@@ -52,14 +54,14 @@ export class ValidationController {
     
     // Process all successful validations through agent and persist
     if (batchResult.results && Array.isArray(batchResult.results)) {
-      batchResult.results.forEach((item: any, index: number) => {
+      batchResult.results.forEach((item: { result?: ValidationResultDto; error?: string; agentDecision?: unknown }, index: number) => {
         if (item.result && !item.error) {
           const recordId = `IMP-${Date.now()}-${index}-${Math.random().toString(36).substr(2, 9)}`;
           try {
             const agentDecision = this.agentService.evaluateValidation(recordId, item.result, records[index]);
             item.agentDecision = agentDecision;
           } catch (err) {
-            console.error(`Error processing item ${index} through agent:`, err);
+            this.logger.error(`Error processing item ${index} through agent:`, err);
           }
         }
       });
