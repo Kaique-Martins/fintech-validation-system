@@ -5,6 +5,9 @@
   "author": "Data Engineering Team",
   "private": true,
   "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",
